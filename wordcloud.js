@@ -1,42 +1,23 @@
-Plotly.d3.csv("recipeCategory.csv", 'text/csv', function (data) {
+function plotFromCSV() {
+    Plotly.d3.csv("recipeCategory.csv", function(err, rows) {
+        console.log(rows);
+        processData(rows);
+    });
+}
 
-  data = data.replace(/^[#@][^\r\n]+[\r\n]+/mg, '');
-  data = d3.csvParse(data);
-  var test = [];
-  var test2 =[]
+function processData(allRows){
+    let test = [];
+    let test2 = [];
+    let row;
 
-  for(let i = 0; i < data.length; i++) {
-    test.push(data[i].RecipeCategory);
-    test2.push(data[i].RecipeName);
-  }
-
-  tableDiv = document.getElementById('table');
-
-  var tableData = [{
-    type: 'table',
-    header: {
-      values: [["<b>test</b>"]],
-      align: "center",
-      line: { width: 1, color: 'black' },
-      fill: { color: 'rgba(120, 120, 120, 1)' },
-      font: { family: "Montserrat", size: 12, color: "white" }
-    },
-    cells: {
-      values: [test],
-      align: ["center", "right"],
-      line: { color: "black", width: 1 },
-      font: { family: "Montserrat", size: 11, color: "black" }
-    },
-  }];
-
-  var tableLayout = {
-    title: "Cholera Outbreak Attacks & Deaths",
-    font: {
-      family: 'Montserrat',
-      size: 16,
-      color: '#000000'
+    for(let i = 0; i < allRows.length; i++) {
+        row = allRows[i];
+        test.push(row["RecipeName"]);
+        test2.push(row["RecipeCategory"]);
     }
-  };
 
-  var myTable = Plotly.plot(tableDiv, tableData, tableLayout);
-});
+    console.log("Recipe Name", test);
+    console.log("Recipe Category", test2);
+}
+
+plotFromCSV();
