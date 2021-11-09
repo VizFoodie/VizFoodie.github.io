@@ -1,7 +1,6 @@
 
 function plotFromCSV() {
     Plotly.d3.csv("CSV/recipeCategory.csv", function(err, rows) {
-        console.log(rows);
         processData(rows);
     });
 }
@@ -18,8 +17,6 @@ function processData(allRows){
     }
 
     test3.push(test.join(" "));
-    console.log("Recipe Name", test);
-    console.log("STRING",  test3);
 
 }
 
