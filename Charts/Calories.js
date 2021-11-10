@@ -18,7 +18,7 @@ for(let i = 0; i < allRows.length; i++) {
   Calories.push(row["Calories"]);
 }
 
-var trace2 = {
+var trace1 = {
   x: Name,
   y: Calories,
   mode: 'markers',
@@ -27,3 +27,26 @@ var trace2 = {
   text: ['B-a', 'B-b', 'B-c', 'B-d', 'B-e'],
   marker: { size: 12 }
 };
+
+  var data = [ trace1 ];
+
+var layout = {
+  xaxis: {
+    range: [ 0.75, 5.25 ]
+  },
+  yaxis: {
+    range: [0, 8]
+  },
+  legend: {
+    y: 0.5,
+    yref: 'paper',
+    font: {
+      family: 'Arial, sans-serif',
+      size: 20,
+      color: 'grey',
+    }
+  },
+  title:'Data Labels on the Plot'
+};
+  
+  Plotly.newPlot('myDiv', data, layout);
