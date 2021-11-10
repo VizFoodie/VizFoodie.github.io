@@ -1,52 +1,53 @@
-function plotFromCSV() {
-  Plotly.d3.csv("CSV/recipesNutrition.csv", function(err, rows) {
-    processData(rows);
-  });
-}
+// function plotFromCSV() {
+//   Plotly.d3.csv("CSV/recipesNutrition.csv", function(err, rows) {
+//     processData(rows);
+//   });
+// }
 
-plotFromCSV();
+// plotFromCSV();
 
-let Name = [];
-let Calories = [];
+// let Name = [];
+// let Calories = [];
 
-function processData(allRows){
-  let row;
+// function processData(allRows){
+//   let row;
 
-for(let i = 0; i < allRows.length; i++) {
-  row = allRows[i];
-  Name.push(row["Name"]);
-  Calories.push(row["Calories"]);
-}
+// for(let i = 0; i < allRows.length; i++) {
+//   row = allRows[i];
+//   Name.push(row["Name"]);
+//   Calories.push(row["Calories"]);
+// }
 
+// var trace1 = {
+//   x: Name,
+//   y: Calories,
+//   mode: 'markers',
+//   type: 'scatter',
+//   name: 'Team B',
+//   text: ['B-a', 'B-b', 'B-c', 'B-d', 'B-e'],
+//   marker: { size: 12 }
+// };
+
+//   var data = [ trace1 ];
+
+// var layout = {
+//   title:'Data Labels on the Plot'
+// };
+  
+//   Plotly.newPlot('myDiv', data, layout);
 var trace1 = {
-  x: Name,
-  y: Calories,
+  y: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
   mode: 'markers',
-  type: 'scatter',
-  name: 'Team B',
-  text: ['B-a', 'B-b', 'B-c', 'B-d', 'B-e'],
-  marker: { size: 12 }
+  marker: {
+    size: 40,
+    color: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+  }
 };
 
-  var data = [ trace1 ];
+var data = [trace1];
 
 var layout = {
-  xaxis: {
-    range: [ 0.75, 5.25 ]
-  },
-  yaxis: {
-    range: [0, 8]
-  },
-  legend: {
-    y: 0.5,
-    yref: 'paper',
-    font: {
-      family: 'Arial, sans-serif',
-      size: 20,
-      color: 'grey',
-    }
-  },
-  title:'Data Labels on the Plot'
+  title: 'Scatter Plot with a Color Dimension'
 };
-  
-  Plotly.newPlot('myDiv', data, layout);
+
+Plotly.newPlot('myDiv', data, layout);
