@@ -11,8 +11,9 @@ var trace1 = {
   type: 'scatter',
   marker: { size: 12 }
 };
-  var data = [ trace1 ];
-console.log(trace1)
+  
+var data = [ trace1 ];
+
 var layout = {
   height: 900,
   margin: {
@@ -26,5 +27,5 @@ var layout = {
   }
 };
   
-  Plotly.newPlot('myDiv', data, layout, {scrollZoom: true})});
+Plotly.newPlot('myDiv', data, layout, {scrollZoom: true})});
 
