@@ -20,7 +20,7 @@ var layout = {
     b: 500,
     pad: 0,
   },
-  title:'Data Labels on the Plot',
+  title:'Calories',
   yaxis: {
     range: [0, 800],
     automargin: true,
