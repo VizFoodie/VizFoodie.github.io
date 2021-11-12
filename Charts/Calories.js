@@ -27,5 +27,6 @@ var layout = {
   }
 };
   
-Plotly.newPlot('myDiv', data, layout, {scrollZoom: true})});
+Plotly.newPlot('myDiv', data, layout, {scrollZoom: true})
 
+});
