@@ -9,7 +9,12 @@ var trace1 = {
   y: unpack(rows, 'Calories'),
   mode: 'markers',
   type: 'scatter',
-  marker: { size: 12 }
+  marker: { size: 12 },
+  transforms: [{
+    type: 'sort',
+    target: 'y',
+    order: 'ascending'
+  }],
 };
   
 var data = [ trace1 ];
@@ -20,6 +25,7 @@ var layout = {
     b: 500,
     pad: 0,
   },
+
   title:'Data Labels on the Plot',
   yaxis: {
     range: [0, 800],
