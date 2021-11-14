@@ -14,9 +14,12 @@ function plotFromCSV() {
         line: {
           color: 'rgba(217, 217, 217, 0.14)',
           width: 0.5},
-        opacity: 0.8},
+        opacity: 0.8,
+        color: unpack(rows, 'TotalTime'),
+        colorscale: "Blues",
+      },
       type: 'scatter3d',
-      name: 'Recipe Times (min)'
+      name: 'Recipe Times (min)',
     };
 
     var data = [recipeTime];
