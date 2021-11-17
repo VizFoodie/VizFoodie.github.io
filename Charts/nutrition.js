@@ -1,21 +1,22 @@
-plotFromCSV();
-let Name = [];
-let Calories = [];
-let FatContent = [];
-let SaturatedFatContent = [];
-let CholesterolContent = [];
-let SodiumContent = [];
-let CarbohydrateContent = [];
-let FiberContent = [];
-let SugarContent = [];
-let ProteinContent = [];
-function plotFromCSV() {
+/**
+ * plotFromCSV();
+ let Name = [];
+ let Calories = [];
+ let FatContent = [];
+ let SaturatedFatContent = [];
+ let CholesterolContent = [];
+ let SodiumContent = [];
+ let CarbohydrateContent = [];
+ let FiberContent = [];
+ let SugarContent = [];
+ let ProteinContent = [];
+ function plotFromCSV() {
   Plotly.d3.csv("CSV/recipesNutrition.csv", function(err, rows) {
     processData(rows);
   });
 }
 
-function processData(allRows){
+ function processData(allRows){
   let row;
 
   for(let i = 0; i < allRows.length; i++) {
@@ -34,10 +35,12 @@ function processData(allRows){
 
   }
   console.log("TEST", Name);
-  console.log("Sodium", SodiumContent);
+  //console.log("Sodium", SodiumContent);
 
 
 }
+ */
+
 
 let nutrition = {
   type: 'bar',

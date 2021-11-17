@@ -1,41 +1,41 @@
 function plotFromCSV() {
-  Plotly.d3.csv("CSV/recipeIngredients.csv", function(err, rows) {
+  Plotly.d3.csv("CSV/recipeInstructions.csv", function(err, rows) {
     processData(rows);
   });
 }
 
 /**
 function processData(allRows){
-  let ingredients = [];
-  let ingredientslist = [];
+  let instructions = [];
+  let instructionsList = [];
   let temp = [];
   let row;
 
   for(let i = 0; i < allRows.length; i++) {
     row = allRows[i];
 
-    ingredients.push(row["RecipeIngredientParts"]);
+    instructions.push(row["RecipeInstructions"]);
   }
 
   for(let i = 0; i < allRows.length; i++) {
 
-    ingredientslist.push(ingredients[i].substr(1, ingredients[i].length).replace(/[,)(]+/g, '').split("\""));
-    temp.push(Math.floor(ingredientslist[i].length / 2));
+    instructionsList.push(instructions[i].substr(1, instructions[i].length).replace(/[,)(]+/g, '').split("\""));
+    temp.push(Math.floor(instructionsList[i].length / 2));
   }
 
 
-  console.log("Ingredients", temp);
 }
  */
 
 
 
 
-let numberOfIngredients = {
+
+let numberOfInstructions = {
   type: 'bar',
   backgroundColor: 'white',
   title: {
-    text: 'Number of Ingredients Per Recipe',
+    text: 'Number of Instructions Per Recipe',
     margin: '15px auto',
     alpha: 1,
     backgroundColor: 'none',
@@ -113,7 +113,7 @@ let numberOfIngredients = {
     zoomTo: [0, 50],
   },
   scaleY: {
-    values: '0:30:10',
+    values: '0:40:10',
     guide: {
       visible: true
     },
@@ -121,7 +121,7 @@ let numberOfIngredients = {
       fontColor: '#7e7e7e'
     },
     label: {
-      text: 'Number of Ingredients',
+      text: 'Number of instructions',
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
@@ -138,20 +138,20 @@ let numberOfIngredients = {
 
   series: [
     {
-      text: 'Ingredients',
-      values: [10, 14, 6, 8, 12, 9, 6, 9, 4, 5, 9, 6, 7, 10, 7, 8, 4, 6, 9, 10, 6, 5, 8, 8, 6, 6, 6, 10, 6, 9, 7, 12, 8, 13, 6, 5, 8, 22, 10, 10, 7, 7, 3, 10, 6, 4, 2, 5, 1, 10, 9, 8, 14, 1, 6, 8, 7, 15, 5, 3, 10, 5, 7, 7, 9, 18, 7, 8, 13, 6, 12, 12, 12, 7, 15, 9, 7, 15, 3, 5, 13, 2, 10, 3, 6, 10, 8, 9, 9, 5, 17, 8, 5, 2, 10, 9, 5, 10, 18, 7
+      text: 'Instructions',
+      values: [12, 2, 7, 8, 9, 5, 7, 6, 4, 4, 11, 5, 8, 6, 12, 6, 6, 10, 7, 8, 6, 5, 9, 4, 7, 5, 10, 10, 18, 9, 8, 3, 7, 6, 8, 2, 12, 32, 7, 4, 5, 12, 6, 6, 8, 6, 6, 5, 4, 6, 11, 5, 6, 3, 6, 7, 3, 4, 8, 5, 3, 7, 5, 7, 13, 17, 3, 13, 15, 5, 11, 10, 4, 4, 15, 5, 5, 7, 9, 7, 4, 4, 6, 5, 15, 4, 9, 14, 11, 3, 11, 9, 3, 6, 7, 4, 5, 7, 6, 6
       ],
       borderRadiusTopLeft: '7px',
       alpha: 0.95,
-      backgroundColor: '#8dd3c7'
+      backgroundColor: '#fb8072'
     }
 
   ]
 };
 
 zingchart.render({
-  id : 'numberOfIngredients',
-  data : numberOfIngredients,
+  id : 'numberOfInstructions',
+  data : numberOfInstructions,
 });
 
 plotFromCSV();
