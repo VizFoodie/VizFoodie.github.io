@@ -7,25 +7,21 @@ function plotFromCSV() {
 /**
 function processData(allRows){
   let instructions = [];
-  let instructionsList = [];
-  let temp = [];
+  let name = []
   let row;
 
   for(let i = 0; i < allRows.length; i++) {
     row = allRows[i];
 
-    instructions.push(row["RecipeInstructions"]);
+    instructions.push(row["Instructions"]);
+    name.push(row["Name"]);
   }
 
-  for(let i = 0; i < allRows.length; i++) {
-
-    instructionsList.push(instructions[i].substr(1, instructions[i].length).replace(/[,)(]+/g, '').split("\""));
-    temp.push(Math.floor(instructionsList[i].length / 2));
-  }
-
+  console.log("NAME",name);
+  console.log("INSTRUCTIONS",instructions)
 
 }
- */
+*/
 
 
 
@@ -35,7 +31,7 @@ let numberOfInstructions = {
   type: 'bar',
   backgroundColor: 'white',
   title: {
-    text: 'Number of Instructions Per Recipe',
+    text: 'Number of Steps Per Recipe',
     margin: '15px auto',
     alpha: 1,
     backgroundColor: 'none',
@@ -107,10 +103,10 @@ let numberOfInstructions = {
       fontColor: '#7e7e7e',
       fontAngle: 15,
     },
-    labels: ["Quick Pasta Supper", "Asian Turkey Salad","A Different Type of Chicken Wing","Barefoot Contessa's Parmesan Roasted Asparagus","Leek and Potato Tart","Lentil Rice Dish  (Mujadarah Arabic Dish)","Sweet Potato Cakes","Garlicky Mushroom Pakoras","Chicken Casadillas","Cyprus - Souvlakia - Pork Kebab","Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)","Paglia E Fieno","Gnocchi Romana","Puff Pastry Toasted Sandwiches","Barefoot Contessa's Tequila Lime Chicken","Spicy Pulled Pork","Kung Pao Shrimp","Bacon Spinach and Cream Potatoes","Wonder Salad","Eastern Chicken Gravy With Rice","Mutt Meatballs","Garlic Chicken Nuggets","Australian Seafood Platter","Mom's Simple Goulash","Barefoot Contessa's Mashed Potatoes","Mini Quiche","Mini Sausage Rolls","Italian Casserole (Rigatoni and Cheese With Tomato Sauce)","Cream of Artichoke Soup With Chervil and Fried Artichokes","Fidget Pie","Swedish Pancakes","Mom's Dinner Salad","Wild Rice and Turkey Casserole","Salmon Canapes","Caramel Ice Cream Delight","Bully Hill Coleslaw","Cornbread & Sausage Wheel","Zooma's Spiced Pumpkin Cheesecake","Crock Pot Curried Split Pea Soup","Black and White Bean Chili","Feta Cheese Ball","Baked Onions With Thyme","Hot Italian Cheesy Dip","Stuffed Bell Pepper Soup","Southwestern Pinwheels","Spinach – Creamy Parmesan","Green Onion Fritters","Russian Omelet","Chocolate Chocolate Chip Pancakes","Corn and Bell Peppers Stuffed Zucchini","Baked Potato Soup","Easy Black Bean Soup","Leftover Holiday Ham & Split Pea Soup","Go Patriots Meatballs","Sesame Spaghetti Salad","Amanda's Delicious Cilantro Potato Salad","Veggie Cream Cheese Pizza","Spicy Bean Stew With Sausages","Kabocha Salad","Almond Amaretto Fudge","Spinach Salad With Poppy Seed Dressing","Smoked Turkey Cheese Ball","Texas Chili Powder - Bulk","Potato Salad With Green Onion and Mustard Raspberry Vinaigrett","Cheesy Crab and Broccoli","Tuna Lasagna With Italian Spiced White Sauce","Barefoot Contessa's Sun-Dried Tomato Dip (Light Version)","Scalloped, Not-Too-Cheesy Potatoes","Vegetable-Barley Pot Pie / Pies","Teriyaki Turkey Burgers","Barbecued Beef on Buns","Steak & Pasta","Aubergine (Eggplant) Curry","Cauliflower With Toasted Mustard Seeds","Diabetic Friendly Country Apricot Tart","Easy French Toast","Skillet Herbed Cabbage","Calcutta Style Beef Curry","Pina Colada Sherbet","Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip","Heartwarming Beef-Barley Soup","Lower Fat Reuben Bites","Baked French Toast Casserole","Bleu Cheese Bread","Roasted Garlic & Spinach Spirals","Tex-Mex Tostadas (Lower Fat)","Popping Pepper Packs","Almond Cookies","Christmas Bread (Almond-Filled Challah)","Da Best Butter Mochi","Bulgarian Chushki Burek (Bulgarian Peppers Burek)","Crossing-Culture Chinese Hoisin Pizza","Key Lime Fruit Salad","Dad's Tuna Melt Casserole","Harvest Pie","The Best Chocolate Chip Cookies Ever","Beef Cheese Ball","Lettuce-Wrapped Beef and Pepper Fajitas","Beef Stew With Poblanos, Tomatillos, and Potatoes","Mixed Bean Casserole"],
+    labels: ['Asian Turkey Salad', 'Bully Hill Coleslaw', "Mom's Dinner Salad", 'Go Patriots Meatballs', 'Veggie Cream Cheese Pizza', 'Spinach Salad With Poppy Seed Dressing', "Barefoot Contessa's Sun-Dried Tomato Dip (Light Version)", 'Da Best Butter Mochi', 'Key Lime Fruit Salad', 'Chicken Casadillas', 'Cyprus - Souvlakia - Pork Kebab', "Mom's Simple Goulash", 'Black and White Bean Chili', 'Chocolate Chocolate Chip Pancakes', 'Spicy Bean Stew With Sausages', 'Aubergine (Eggplant) Curry', 'Cauliflower With Toasted Mustard Seeds', 'Heartwarming Beef-Barley Soup', 'Lower Fat Reuben Bites', 'Tex-Mex Tostadas (Lower Fat)', 'The Best Chocolate Chip Cookies Ever Recipe Courtesy George Dura', 'Lentil Rice Dish  (Mujadarah Arabic Dish)', 'Paglia E Fieno', 'Garlic Chicken Nuggets', 'Mini Quiche', 'Feta Cheese Ball', 'Russian Omelet', 'Easy Black Bean Soup', 'Almond Amaretto Fudge', 'Texas Chili Powder - Bulk', 'Teriyaki Turkey Burgers', 'Easy French Toast', 'Skillet Herbed Cabbage', 'Bleu Cheese Bread', 'Beef Cheese Ball', 'Garlicky Mushroom Pakoras', 'Puff Pastry Toasted Sandwiches in Your Sandwich Maker!', 'Spicy Pulled Pork', 'Kung Pao Shrimp', 'Mutt Meatballs', 'Salmon Canapes', 'Hot Italian Cheesy Dip', 'Stuffed Bell Pepper Soup', 'Spinach – Creamy Parmesan', 'Green Onion Fritters', 'Corn and Bell Peppers Stuffed Zucchini', 'Leftover Holiday Ham & Split Pea Soup', 'Sesame Spaghetti Salad', 'Baked French Toast Casserole', "Dad's Tuna Melt Casserole", 'Beef Stew With Poblanos, Tomatillos, and Potatoes', 'Mixed Bean Casserole', 'A Different Type of Chicken Wing', 'Sweet Potato Cakes', 'Wonder Salad', "Barefoot Contessa's Mashed Potatoes", 'Wild Rice and Turkey Casserole', 'Crock Pot Curried Split Pea Soup', "Amanda's Delicious Cilantro Potato Salad", 'Smoked Turkey Cheese Ball', 'Potato Salad With Green Onion and Mustard  Raspberry Vinaigrette', 'Calcutta Style Beef Curry', 'Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip', 'Harvest Pie', 'Lettuce-Wrapped Beef and Pepper Fajitas', "Barefoot Contessa's Parmesan Roasted Asparagus", 'Gnocchi Romana', 'Eastern Chicken Gravy With Rice', 'Swedish Pancakes', 'Caramel Ice Cream Delight', 'Southwestern Pinwheels', 'Kabocha Salad', 'Leek and Potato Tart', 'Australian Seafood Platter', 'Fidget Pie', 'Pina Colada Sherbet', 'Popping Pepper Packs', 'Crossing-Culture Chinese Hoisin Pizza', 'Bacon Spinach and Cream Potatoes', 'Mini Sausage Rolls', 'Italian Casserole (Rigatoni and Cheese With Tomato Sauce)', 'Steak & Pasta', 'Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)', 'Baked Potato Soup', 'Barbecued Beef on Buns', 'Christmas Bread (Almond-Filled Challah)', 'Bulgarian Chushki Burek (Bulgarian Peppers Burek)', 'Quick Pasta Supper', "Barefoot Contessa's Tequila Lime Chicken", 'Cornbread & Sausage Wheel', 'Baked Onions With Thyme', 'Cheesy Crab and Broccoli', 'Scalloped, Not-Too-Cheesy Potatoes', 'Almond Cookies', 'Vegetable-Barley Pot Pie / Pies', 'Diabetic Friendly Country Apricot Tart', 'Roasted Garlic & Spinach Spirals', 'Tuna Lasagna With  Italian Spiced White Sauce', 'Cream of Artichoke Soup With Chervil and Fried Artichokes', "Zooma's Spiced Pumpkin Cheesecake"],
     lineColor: '#7E7E7E',
     zooming: true,
-    zoomTo: [0, 50],
+    zoomTo: [0, 100],
   },
   scaleY: {
     values: '0:40:10',
@@ -121,7 +117,7 @@ let numberOfInstructions = {
       fontColor: '#7e7e7e'
     },
     label: {
-      text: 'Number of instructions',
+      text: 'Number of Steps',
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
@@ -138,8 +134,8 @@ let numberOfInstructions = {
 
   series: [
     {
-      text: 'Instructions',
-      values: [12, 2, 7, 8, 9, 5, 7, 6, 4, 4, 11, 5, 8, 6, 12, 6, 6, 10, 7, 8, 6, 5, 9, 4, 7, 5, 10, 10, 18, 9, 8, 3, 7, 6, 8, 2, 12, 32, 7, 4, 5, 12, 6, 6, 8, 6, 6, 5, 4, 6, 11, 5, 6, 3, 6, 7, 3, 4, 8, 5, 3, 7, 5, 7, 13, 17, 3, 13, 15, 5, 11, 10, 4, 4, 15, 5, 5, 7, 9, 7, 4, 4, 6, 5, 15, 4, 9, 14, 11, 3, 11, 9, 3, 6, 7, 4, 5, 7, 6, 6
+      text: 'Steps',
+      values: [2,2,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,9,9,9,9,9,9,10,10,10,10,11,11,11,11,11,12,12,12,12,13,13,14,15,15,15,17,18,32
       ],
       borderRadiusTopLeft: '7px',
       alpha: 0.95,

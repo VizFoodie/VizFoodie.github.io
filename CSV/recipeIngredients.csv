@@ -1,101 +1,101 @@
-Name,RecipeIngredientQuantities,RecipeIngredientParts
-Quick Pasta Supper,"c(""1"", ""1 1/2"", ""1"", ""1"", ""1"", ""2"", NA, ""1"", ""1"", ""1"", ""1"", ""1"")","c(""olive oil"", ""ground beef"", ""onion"", ""garlic clove"", ""green peppers"", ""mushrooms"", ""diced tomatoes"", ""dried parsley"", ""dried basil"", ""pasta"")"
-Asian Turkey Salad,"c(""2"", ""3"", ""1"", ""1/2"", ""1/2"", ""1/4"", ""1"", ""1/4"", ""1/4"", ""1"", ""2"", ""2"", ""1"", ""1"", ""1/2"", ""1/2"", ""1"", ""1"")","c(""cabbage"", ""red bell pepper"", ""red onion"", ""basil"", ""cilantro"", ""scallion"", ""rice vinegar"", ""vegetable broth"", ""soy sauce"", ""fresh lime juice"", ""salt"", ""sugar"", ""garlic clove"", ""serrano chili"")"
-A Different Type of Chicken Wing,"c(""1"", ""1/2"", ""1/2"", ""12"", ""1"", ""1"", NA)","c(""white vinegar"", ""pepper"", ""garlic"", ""chicken wings"", ""flour"", ""seasoning salt"")"
-Barefoot Contessa's Parmesan Roasted Asparagus,"c(""2 1/2"", ""2"", ""1/2"", ""1/4"", ""1/2"", ""2"")","c(""fresh asparagus"", ""olive oil"", ""kosher salt"", ""sea salt"", ""lemon pepper"", ""asiago cheese"", ""romano cheese"", ""lemons"")"
-Leek and Potato Tart,"c(""225"", ""1"", ""150"", ""50"", ""1"", ""450"", ""40"", ""450"", ""300"", ""3"", ""175"", ""1"", NA)","c(""plain flour"", ""salt"", ""butter"", ""walnuts"", ""leeks"", ""butter"", ""new potatoes"", ""sour cream"", ""eggs"", ""gruyere cheese"", ""nutmeg"", ""chives"")"
-Lentil Rice Dish  (Mujadarah Arabic Dish),"c(""1"", ""1/3"", ""4"", NA, ""1/2"", ""1"", ""1/4"", ""2"")","c(""lentils"", ""basmati rice"", ""chicken broth"", ""vegetable broth"", ""salt"", ""black pepper"", ""cumin"", ""olive oil"", ""onions"")"
-Sweet Potato Cakes,"c(""700"", ""25"", ""1"", ""1"", ""1"", ""1"", ""50"", ""2"")","c(""sweet potatoes"", ""butter"", ""onion"", ""garlic clove"", ""nutmeg"", ""egg"")"
-Garlicky Mushroom Pakoras,"c(""175"", ""1/2"", ""1/4"", ""1"", ""1"", ""200"", ""2"", ""1"", ""500"", NA)","c(""gram flour"", ""salt"", ""baking powder"", ""cumin seed"", ""chili powder"", ""water"", ""garlic cloves"", ""onion"", ""button mushrooms"")"
-Chicken Casadillas,"c(""18"", ""6"", ""2"", ""1"")","c(""chicken"", ""tortillas"", ""mozzarella cheese"", ""canola oil"")"
-Cyprus - Souvlakia - Pork Kebab,"c(""1"", NA, ""4"", ""1"", ""5"", NA, NA)","c(""salt"", ""tomatoes"", ""onion"", ""fresh parsley"", ""lemon juice"")"
-"Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)","c(""1"", ""1"", ""1"", ""1"", ""2"", ""1"", ""4"", ""2"", ""1/2"", ""1/8"", ""1"", ""1"")","c(""asparagus"", ""green beans"", ""garlic cloves"", ""flat leaf parsley"", ""scallions"", ""extra virgin olive oil"", ""nutmeg"", ""extra firm tofu"", ""basil leaves"")"
-Paglia E Fieno,"c(""60"", ""450"", ""200"", ""450"", ""1"", ""60"", ""1"")","c(""butter"", ""fresh peas"", ""tagliatelle pasta noodles"", ""olive oil"", ""parmesan cheese"", ""nutmeg"")"
-Gnocchi Romana,"c(""700"", ""1"", ""90"", ""225"", ""125"", ""2"", ""60"")","c(""milk"", ""nutmeg"", ""butter"", ""semolina"", ""parmesan cheese"", ""eggs"", ""gruyere cheese"")"
-Puff Pastry Toasted Sandwiches in Your Sandwich Maker!,"c(""1"", ""50"", ""25"", ""5"", NA, NA, ""1"", NA, NA, NA, NA, NA)","c(""puff pastry"", ""cheese"", ""butter"", ""spring onion"", ""chives"", ""egg"", ""tomatoes"", ""ham"", ""mashed potatoes"", ""onion"")"
-Barefoot Contessa's Tequila Lime Chicken,"c(""1/4"", ""1"", ""1/2"", ""1"", ""1"", ""1  - 1 1/2"", ""3"", ""2"", ""1"", ""6"")","c(""lime juice"", ""chili powder"", ""cilantro"", ""garlic cloves"", ""kosher salt"", ""fresh ground black pepper"", ""boneless chicken breasts"")"
-Spicy Pulled Pork,"c(""1"", ""1"", ""2 3/4"", ""1"", ""1"", ""1"", ""1"", ""2"", NA)","c(""crushed tomatoes"", ""tomatoes in puree"", ""boneless pork shoulder"", ""dried oregano"", ""adobo sauce"", ""chipotle chile in adobo"", ""onion"", ""bay leaves"")"
-Kung Pao Shrimp,"c(""2"", ""12"", ""2"", ""32"", ""4"", ""20"", NA)","c(""garlic"", ""shrimp"", ""green onions"", ""chilies"")"
-Bacon Spinach and Cream Potatoes,"c(""3"", ""1"", ""4"", ""1"", ""2"", NA, NA, ""1/4"")","c(""idaho potatoes"", ""onion"", ""bacon"", ""frozen spinach"", ""extra virgin olive oil"", ""nutmeg"")"
-Wonder Salad,"c(""16"", ""16"", ""12"", ""12"", ""4"", ""6"", ""12"", ""8"", ""8"", ""12"", ""24"", ""16"", ""80"")","c(""feta cheese"", ""provolone cheese"", ""mortadella"", ""black olives"", ""green olives"", ""red onions"", ""cucumbers"", ""roma tomatoes"", ""romaine lettuce"")"
-Eastern Chicken Gravy With Rice,"c(""1"", ""1"", ""2"", NA, ""1"", ""6"", ""2"", ""1"", ""1"", ""2"", ""1"", ""2"", ""4"")","c(""butter"", ""water"", ""boneless skinless chicken thighs"", ""fresh garlic cloves"", ""curry"", ""paprika"", ""flour"", ""coconut milk"", ""basmati rice"", ""water"")"
-Mutt Meatballs,"c(""1/2"", ""1/3"", ""1"", ""1/2"", ""1"", ""1"", ""1"")","c(""ground beef"", ""cheddar cheese"", ""carrot"", ""egg"", ""garlic"", ""tomato paste"")"
-Garlic Chicken Nuggets,"c(""1"", ""2"", ""1/2"", ""1"", ""1"", ""1"", ""1"", ""1/2"", ""1"")","c(""eggs"", ""milk"", ""flour"", ""baking powder"", ""onion powder"")"
-Australian Seafood Platter,"c(""2"", ""24"", ""18"", ""12"", ""50"", ""1"", NA, ""1"", NA, NA, NA, NA)","c(""lobsters"", ""smoked salmon"", ""red caviar"", ""avocado"", ""lemon juice"", ""lemon wedge"", ""capers"", ""parsley"")"
-Mom's Simple Goulash,"c(""1"", ""1"", ""1"", ""1 1/2"", ""1"", ""1"", ""1"", NA, NA, NA)","c(""lean hamburger"", ""green pepper"", ""sweet onion"", ""elbow macaroni"", ""tomato sauce"", ""stewed tomatoes"", ""ground black pepper"", ""salt"")"
-Barefoot Contessa's Mashed Potatoes,"c(""3"", ""2"", ""1/4"", ""1/2 - 1"", ""1/2"", ""1/2"")","c(""boiling potatoes"", ""kosher salt"", ""unsalted butter"", ""half-and-half"", ""sour cream"", ""fresh ground black pepper"")"
-Mini Quiche,"c(""2"", ""1"", ""1 -2"", ""1/2"", ""2"", ""1/2"", NA)","c(""puff pastry"", ""onion"", ""bacon"", ""cheese"", ""eggs"", ""milk"")"
-Mini Sausage Rolls,"c(""3"", ""1/2"", ""1"", ""1"", ""1/2"", NA, ""500"", ""1"")","c(""hot water"", ""sausage meat"", ""onion"", ""mixed herbs"", ""puff pastry"", ""egg"")"
-Italian Casserole (Rigatoni and Cheese With Tomato Sauce),"c(""1"", ""2"", ""2"", ""1/2"", ""1/2"", ""3"", ""1"", ""1/2"")","c(""rigatoni pasta"", ""elbow macaroni"", ""tomato sauce"", ""dried oregano"", ""dried basil"", ""salt"", ""garlic cloves"", ""swiss cheese"", ""mozzarella cheese"", ""butter"")"
-Cream of Artichoke Soup With Chervil and Fried Artichokes,"c(""4"", ""8"", ""1"", ""2"", ""8"", ""7"", ""6"", ""1"", NA, ""1"", NA)","c(""water"", ""artichokes"", ""olive oil"", ""unsalted butter"", ""fresh chervil"", ""heavy cream"")"
-Fidget Pie,"c(""1"", ""2"", ""1"", ""1"", ""1/4"", ""1/2"", ""1"", ""1"", ""1"", ""1"")","c(""ham"", ""cooking apples"", ""onion"", ""cider"", ""heavy cream"", ""cheddar cheese"", ""flat leaf parsley"", ""cornflour"", ""egg"")"
-Swedish Pancakes,"c(""2"", ""1 1/2"", ""1"", ""1/4"", ""1"", ""3"", ""1/2"")","c(""milk"", ""flour"", ""sugar"", ""baking powder"", ""salt"", ""eggs"", ""butter"")"
-Mom's Dinner Salad,"c(""6"", ""3"", ""1"", ""1 -2"", ""1/2"", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA)","c(""rice vinegar"", ""lemon juice"", ""white sugar"", ""salt"", ""pepper"", ""paprika"", ""lettuce"", ""bacon bits"", ""raisins"", ""banana chips"", ""tomatoes"", ""green onion"")"
-Wild Rice and Turkey Casserole,"c(""1"", ""1"", ""2"", ""2"", ""1"", ""1/2"", ""1/2"", ""2"", ""1/2"", ""1"")","c(""cooked white rice"", ""lowfat mozzarella cheese"", ""fat-free evaporated milk"", ""red bell pepper"", ""green bell pepper"", ""eggs"", ""black pepper"", ""fresh parsley"")"
-Salmon Canapes,"c(""1/2"", ""1/4"", ""1/4"", ""4"", ""2"", ""1 3/4"", ""1"", NA, ""2"", ""1"", ""1"", ""1/4"", NA, ""1"", ""2"", ""6"")","c(""salt"", ""ground black pepper"", ""cayenne"", ""paprika"", ""garlic powder"", ""onion powder"", ""salmon"", ""sour cream"", ""fresh chives"", ""lemon juice"", ""salt"", ""butter"", ""black caviar"")"
-Caramel Ice Cream Delight,"c(""1 1/2"", ""1"", ""1/2"", ""1 1/2"", ""1"", ""6"", ""1/2"")","c(""flour"", ""oatmeal"", ""brown sugar"", ""pecans"", ""butter"", ""vanilla ice cream"")"
-Bully Hill Coleslaw,"c(""1"", ""1"", ""1"", ""1"", ""1"", ""1"", ""1/2"", NA)","c(""cabbage"", ""chunk pineapple"", ""white wine"", ""mayonnaise"", ""craisins"")"
-Cornbread &amp; Sausage Wheel,"c(""1"", ""1"", ""1/2"", ""4"", ""1"", ""1"", ""1"", ""2"", ""1/2"")","c(""pork sausage link"", ""flour"", ""salt"", ""baking powder"", ""yellow cornmeal"", ""egg"", ""milk"", ""onion"")"
-Zooma's Spiced Pumpkin Cheesecake,"c(""1 1/2"", ""1 1/2"", ""1 1/4"", ""1/4"", ""1/4"", ""4"", ""1 1/2"", ""3"", ""1"", ""1"", ""2"", ""1"", ""1"", ""1"", ""1/2"", ""1/2"", ""1"", ""5"", ""1"", ""6"", ""4"", ""1 1/2"", ""7"")","c(""graham crackers"", ""walnuts"", ""brown sugar"", ""unsalted butter"", ""cream cheese"", ""sugar"", ""eggs"", ""pumpkin puree"", ""heavy cream"", ""vanilla extract"", ""ground cinnamon"", ""ground allspice"", ""ground nutmeg"", ""ground ginger"", ""ground cloves"", ""sour cream"", ""heavy cream"", ""cinnamon"", ""sugar"", ""water"", ""butter"", ""heavy cream"")"
-Crock Pot Curried Split Pea Soup,"c(""1"", ""1"", ""1 1/2"", ""1 1/2"", ""1"", ""1"", ""3 -4"", ""1"", ""2"", ""1/4"", ""6"")","c(""ham bone"", ""cooked ham"", ""celery"", ""onion"", ""carrot"", ""curry powder"", ""dried marjoram"", ""bay leaves"", ""ground black pepper"", ""water"")"
-Black and White Bean Chili,"c(""1"", ""1"", ""2"", ""1"", ""2"", ""1"", ""1"", ""3"", ""1"", ""1 -2"", NA, ""2"")","c(""red onion"", ""olive oil"", ""white beans"", ""black beans"", ""corn kernels"", ""chopped tomatoes"", ""chicken broth"", ""cumin"", ""salt"", ""celery"")"
-Feta Cheese Ball,"c(""2"", ""4"", ""2"", ""3"", ""4"", ""1"", ""2"", ""1"")","c(""feta cheese"", ""extra virgin olive oil"", ""garlic cloves"", ""green onions"", ""dried dill weed"", ""dried oregano"", ""cracked black pepper"")"
-Baked Onions With Thyme,"c(""6"", ""3"", ""10"", NA, ""1/2"", ""1/4"")","c(""red onions"", ""extra virgin olive oil"", ""fresh thyme sprigs"", ""dried thyme"", ""fine sea salt"", ""dry red wine"", ""water"")"
-Hot Italian Cheesy Dip,"c(""1"", ""1"", ""16"", NA, NA)","c(""hot Italian sausage"", ""Velveeta cheese"", ""salsa"")"
-Stuffed Bell Pepper Soup,"c(""1"", ""1/2"", ""2"", ""1"", ""2"", ""1"", ""2"", ""1 -2"", NA, NA)","c(""ground beef"", ""onion"", ""celery"", ""green pepper"", ""garlic cloves"", ""diced tomatoes"", ""crushed tomatoes"", ""water"", ""low sodium beef broth"", ""rice"")"
-Southwestern Pinwheels,"c(""2"", ""2"", ""1"", ""5"", ""3/4"", ""3/4"", ""1"", ""1"", ""1"")","c(""green onions"", ""cream cheese"", ""flour tortillas"", ""black olives"", ""green chilies"", ""diced pimentos"")"
-Spinach – Creamy Parmesan,"c(""3"", ""2"", ""1/2"", ""2/3"", ""1"")","c(""frozen spinach"", ""cream cheese"", ""parmesan cheese"", ""coarse black pepper"")"
-Green Onion Fritters,"c(NA, ""1"", ""1/2"", ""7 -8"", NA)","c(""water"", ""green onions"")"
-Russian Omelet,"c(""2"", ""2"", NA, ""1/2"", ""1/2"", ""2"")","c(""eggs"", ""water"", ""potato"", ""sour cream"", ""green onions"")"
-Chocolate Chocolate Chip Pancakes,"c(""1"", ""3/4"", ""2"", ""1/3"")","""water"""
-Corn and Bell Peppers Stuffed Zucchini,"c(""4"", ""1"", ""3/4"", ""2"", ""1"", ""2"", ""2"", ""1/8"")","c(""zucchini"", ""water"", ""frozen whole kernel corn"", ""fresh corn kernels"", ""red bell peppers"", ""fresh basil"", ""dried basil"", ""green onions"", ""olive oil"", ""salt"")"
-Baked Potato Soup,"c(""4"", ""2/3"", ""2/3"", ""7"", ""1/2"", ""1/2"", ""2"", ""1 1/2"", ""12"", ""8"")","c(""potatoes"", ""margarine"", ""all-purpose flour"", ""milk"", ""salt"", ""pepper"", ""green onions"", ""cheese"", ""sour cream"")"
-Easy Black Bean Soup,"c(""2"", ""1"", ""1"", ""1"", ""1/8"", ""4"", ""2"", NA)","c(""black beans"", ""chicken broth"", ""chunky salsa"", ""ground cumin"", ""garlic powder"", ""fat free sour cream"", ""green onions"", ""cheese"")"
-Leftover Holiday Ham &amp; Split Pea Soup,"c(""1"", ""8"", ""2"", ""2"", ""2"", ""2"", ""2"", ""4 -5"", ""1"", ""1"", ""1"", ""1/2"", ""1/2"", ""1/4 - 1/2"")","c(""water"", ""potatoes"", ""onions"", ""carrots"", ""celery"", ""cooked ham"", ""chicken bouillon powder"", ""chicken bouillon cubes"", ""dried marjoram"", ""poultry seasoning"", ""dried sage"", ""dried basil"", ""ground black pepper"", ""salt"")"
-Go Patriots Meatballs,"c(""1"", ""1"", ""1/2"", ""1 1/2"")","""sweet onion"""
-Sesame Spaghetti Salad,"c(""1"", ""4"", ""2"", ""1/2"", ""1/2"", ""2"", ""1"")","c(""angel hair pasta"", ""broccoli"", ""carrots"", ""olive oil"", ""soy sauce"", ""fresh lemon juice"")"
-Amanda's Delicious Cilantro Potato Salad,"c(""3"", ""2"", ""1"", ""1"", ""1/3"", ""3"", ""2"", ""1"", ""1/2"", ""4"")","c(""salt"", ""mayonnaise"", ""green chilies"", ""fresh cilantro"", ""green onions"", ""fresh lime juice"", ""fresh garlic clove"", ""black pepper"")"
-Veggie Cream Cheese Pizza,"c(""2"", ""8"", ""1/2"", ""1"", NA, ""1"", ""1/2"", ""1/2"", ""1/2"")","c(""cream cheese"", ""mayonnaise"", ""dill weed"", ""black olives"", ""carrot"", ""broccoli"", ""green onion"")"
-Spicy Bean Stew With Sausages,"c(""3"", ""1"", ""1"", ""2"", ""1"", ""1"", ""1"", ""1/4"", ""1/4"", ""1/4"", ""1/2"", ""2"", NA, NA)","c(""olive oil"", ""bulk sausage"", ""onion"", ""garlic cloves"", ""cannellini beans"", ""kidney beans"", ""brown sugar"", ""ground nutmeg"", ""cayenne pepper"", ""ground cloves"", ""dried thyme"", ""fresh thyme"", ""diced tomatoes"", ""salt"", ""fresh ground black pepper"")"
-Kabocha Salad,"c(""1/4"", ""5"", ""1"", ""10"", NA, NA, NA)","c(""mayonnaise"", ""white wine"", ""salt"", ""pepper"", ""parsley"")"
-Almond Amaretto Fudge,"c(""2"", ""2"", ""14"", ""1 1/2"", ""1/2"", ""1/2"", ""1/4"")","c(""sweetened condensed milk"", ""vanilla extract"", ""Amaretto"")"
-Spinach Salad With Poppy Seed Dressing,"c(""1 1/2"", ""3/4"", ""1 1/2"", ""1/2"", ""1"", ""1"", ""1/2"", ""1/2"", ""1/2 - 1"", ""1"", ""2"")","c(""salt"", ""white vinegar"", ""sugar"", ""poppy seed"", ""dry mustard"", ""red onion"", ""fresh mushrooms"", ""swiss cheese"", ""bacon"", ""spinach"")"
-Smoked Turkey Cheese Ball,"c(""1"", ""1"", ""3"", ""1/2"", ""2"")","c(""cream cheese"", ""mayonnaise"", ""Miracle Whip"", ""pecans"", ""fresh parsley"")"
-Texas Chili Powder - Bulk,"c(""1"", ""6"", ""5"", ""3"", ""2"", ""5"", ""5"")","c(""dried ancho chile powder"", ""ground cumin"", ""garlic granules"", ""onion powder"", ""kosher salt"", ""fresh coarse ground black pepper"", ""cayenne pepper"")"
-Potato Salad With Green Onion and Mustard  Raspberry Vinaigrett,"c(""3"", ""1"", ""1/2"", NA, ""5"", ""1"", ""1/3"", ""3/4"", NA)","c(""baby red potatoes"", ""green onion"", ""red onion"", ""garlic cloves"", ""Dijon mustard"", ""raspberry vinegar"", ""canola oil"")"
-Cheesy Crab and Broccoli,"c(""2"", ""6"", ""1"", ""2"", ""1"", ""2"", ""1/8"", ""1"", ""1/4"", ""2"", ""2"")","c(""frozen broccoli"", ""butter"", ""fresh mushrooms"", ""garlic clove"", ""all-purpose flour"", ""pepper"", ""skim milk"", ""sharp cheddar cheese"", ""parmesan cheese"")"
-Tuna Lasagna With  Italian Spiced White Sauce,"c(""2"", ""1/2"", ""1/2"", ""1/4"", ""1 1/2"", ""1/2"", ""1/2"", ""1/2"", ""1/2"", ""2"", ""3/4"", ""1/2"", ""1/3"", ""2"", ""1 1/2"", ""1"", ""1"", ""12"", NA)","c(""eggs"", ""ricotta cheese"", ""cottage cheese"", ""evaporated milk"", ""flour"", ""thyme"", ""oregano"", ""basil"", ""white pepper"", ""water"", ""butter"", ""margarine"", ""white flour"", ""parmesan cheese"", ""dry parmesan cheese"", ""pimientos"", ""albacore tuna"", ""albacore tuna"")"
-Barefoot Contessa's Sun-Dried Tomato Dip (Light Version),"c(""1/4"", ""8"", ""1/2"", ""1/2"", ""10"", ""1"", ""3/4"", ""2"")","c(""sun-dried tomato packed in oil"", ""light sour cream"", ""light mayonnaise"", ""Tabasco sauce"", ""kosher salt"", ""fresh ground black pepper"", ""scallions"")"
-"Scalloped, Not-Too-Cheesy Potatoes","c(""11"", ""3/4"", ""1 -2"", ""3/4"", ""1"", ""1"", ""1"", ""1"")","c(""potatoes"", ""bacon"", ""mild cheddar cheese"", ""parmesan cheese"", ""heavy cream"", ""nutmeg"", ""salt"", ""pepper"")"
-Vegetable-Barley Pot Pie / Pies,"c(""1"", ""1"", ""1"", ""1"", ""1"", ""1/3"", ""1"", ""2/3"", ""1/2"", ""1/2"", ""1/3"", ""1 1/2"", ""2"", ""1/3"")","c(""cauliflower floret"", ""broccoli floret"", ""potato"", ""onion"", ""carrot"", ""quick-cooking barley"", ""skim milk"", ""dried thyme"", ""all-purpose flour"", ""cornmeal"", ""baking powder"", ""shortening"", ""skim milk"")"
-Teriyaki Turkey Burgers,"c(""1 1/2"", ""2"", ""1"", ""1/4"", ""3"", ""1/4"", ""1/2"", ""1/2"", ""1"")","c(""ground turkey"", ""garlic cloves"", ""green onions"", ""sesame seeds"", ""mayonnaise"", ""wasabi paste"")"
-Barbecued Beef on Buns,"c(""1"", ""1"", ""1/2"", NA, ""1 1/2"", ""1/4"", ""1/4"", ""2"", ""2"", ""2"", ""1"", ""1/2"", ""1/2"", ""3"", NA)","c(""boneless beef chuck roast"", ""onion"", ""celery"", ""water"", ""ketchup"", ""brown sugar"", ""vinegar"", ""ground mustard"", ""salt"", ""Worcestershire sauce"", ""chili powder"", ""paprika"")"
-Steak &amp; Pasta,"c(""1"", ""2"", ""1 1/2"", ""1/2"", ""1"", ""2"", ""1"", ""8"", ""1/4"", ""2"", ""2"", ""1"", NA)","c(""boneless beef top round"", ""all-purpose flour"", ""dry white wine"", ""onion"", ""garlic"", ""carrot"", ""mushrooms"", ""tomato paste"", ""fresh parsley"", ""dried oregano"", ""stewed tomatoes"", ""pasta"")"
-Aubergine (Eggplant) Curry (2),"c(""1"", ""1"", ""12"", ""1"", ""2"", ""1/2"", ""1"", ""4"", ""1"", ""1"", ""1/2"", ""1/4"", ""1/4"", ""5"")","c(""green pepper"", ""aubergine"", ""tomatoes"", ""onion"", ""garlic cloves"", ""ground ginger"", ""lemon juice"", ""turmeric"", ""mustard powder"", ""cayenne pepper"", ""salt"", ""milk"")"
-Cauliflower With Toasted Mustard Seeds,"c(""3"", ""1"", ""1 1/2"", ""2"", ""2"", ""1"", ""1"")","c(""mustard seeds"", ""head cauliflower"", ""plain nonfat yogurt"", ""dried mint"", ""sugar"", ""ground cumin"", ""red leaf lettuce"")"
-Diabetic Friendly Country Apricot Tart,"c(""3/4"", ""1/3"", ""2"", ""1"", ""1/8"", ""3"", ""4 -5"", ""1/3"", ""3"", ""1/4"", ""3"", ""1"", ""2"")","c(""flour"", ""cornmeal"", ""Splenda sugar substitute"", ""baking powder"", ""salt"", ""butter"", ""margarine"", ""nonfat milk"", ""Splenda sugar substitute"", ""all-purpose flour"", ""ground nutmeg"", ""ground cinnamon"", ""fresh apricots"", ""lemon juice"", ""nonfat milk"")"
-Easy French Toast,"c(""4"", ""1/3"", ""2/3"", ""1/3"", ""1/2"", ""1/4"", ""6"", ""3"", NA, NA, NA)","c(""eggs"", ""flour"", ""milk"", ""sugar"", ""vanilla"", ""cinnamon"", ""butter"", ""powdered sugar"", ""butter"")"
-Skillet Herbed Cabbage,"c(""2"", ""1"", ""1/2"", ""1/2"", ""1/8"", ""6"", ""1/3"")","c(""olive oil"", ""garlic clove"", ""oregano"", ""salt"", ""pepper"", ""cabbage"", ""water"")"
-Calcutta Style Beef Curry,"c(""1 1/2"", ""1"", ""1/2"", ""1/2"", ""2"", ""1/2"", ""1"", ""1/2"", ""2"", ""1"", ""2"", ""1"", ""1"", ""2"", ""2"")","c(""beef"", ""water"", ""salt"", ""turmeric"", ""ground coriander"", ""ground cumin"", ""chili powder"", ""ground black pepper"", ""salt"", ""ground ginger"", ""milk"", ""onion"", ""garlic clove"", ""ghee"", ""fresh coriander"")"
-Pina Colada Sherbet,"c(""1"", ""1"", ""1"", ""1/4"")","c(""cream of coconut"", ""crushed pineapple"", ""light rum"")"
-Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip,"c(""3"", ""1/2"", ""1/4"", ""1"", ""1/2"", ""1/4"", ""2"", ""2"", ""2"")","c(""paprika"", ""reduced-fat sour cream"", ""blue cheese"", ""celery ribs"", ""carrots"")"
-Heartwarming Beef-Barley Soup,"c(""1 1/2"", ""4"", ""2"", ""2"", ""2"", ""1"", ""1"", ""1"", ""1"", ""1/2"", ""1"", ""1"", ""1"")","c(""boneless beef chuck"", ""water"", ""low sodium beef broth"", ""celery"", ""fresh mushrooms"", ""carrot"", ""onion"", ""salt"", ""dried rosemary"", ""pepper"", ""garlic clove"", ""tomato paste"", ""quick-cooking barley"")"
-Lower Fat Reuben Bites,"c(""24"", ""1/2"", ""6"", ""1"", ""1"")","c(""lowfat swiss cheese"", ""alfalfa sprout"")"
-Baked French Toast Casserole,"c(""1"", ""8"", ""2"", ""1"", ""2"", ""1"", ""1/4"", ""1/4"", ""1"", ""1"", ""1"")","c(""eggs"", ""half-and-half"", ""milk"", ""sugar"", ""vanilla"", ""cinnamon"", ""nutmeg"", ""butter"", ""brown sugar"", ""pecans"")"
-Bleu Cheese Bread,"c(""1"", ""1"", ""1/2"", ""1"")","c(""margarine"", ""blue cheese"", ""mayonnaise"")"
-Roasted Garlic &amp; Spinach Spirals,"c(""1"", ""3"", ""1"", ""1"", ""1/4"", ""1/8"", ""7"")","c(""fresh garlic"", ""fresh spinach leaves"", ""white beans"", ""dried oregano"", ""black pepper"", ""flour tortillas"")"
-Tex-Mex Tostadas (Lower Fat),"c(""4"", NA, ""1"", ""3/4"", ""1 1/2"", ""1"", ""1"", ""1/2"", ""1/3"", ""1"", ""1"", ""1/4"")","c(""fat free tortillas"", ""green bell pepper"", ""boneless skinless chicken breast"", ""garlic"", ""chili powder"", ""ground cumin"", ""chunky salsa"", ""green onion"", ""tomatoes"", ""nonfat sour cream"")"
-Popping Pepper Packs,"c(""4"", ""1"", ""1"", ""2"", ""1"", ""2"", ""2"", ""1/2"", ""1/4"", ""2"")","c(""red bell peppers"", ""green onion"", ""broccoli"", ""carrots"", ""fresh snow pea"", ""celery ribs"", ""reduced-fat sour cream"", ""blue cheese"")"
-Almond Cookies,"c(""1"", ""2"", ""2"", ""1"", ""3 1/2"", ""1"", ""1"", ""1"", ""1"", ""1/2"", ""1/4"", ""1/4"", ""1"", ""1"", ""1/4"")","c(""butter"", ""brown sugar"", ""eggs"", ""all-purpose flour"", ""salt"", ""baking soda"", ""baking powder"", ""sugar"", ""lemon juice"")"
-Christmas Bread (Almond-Filled Challah),"c(""1"", ""1"", ""1"", ""4"", ""1/4"", ""2"", ""2"", ""1/2"", ""1"", ""1"", ""1 1/2"", ""1/2"", ""1"", ""3 -4"", ""1"")","c(""water"", ""sugar"", ""all-purpose flour"", ""granulated sugar"", ""salt"", ""eggs"", ""water"", ""sugar"", ""milk"")"
-Da Best Butter Mochi,"c(""4"", ""3"", ""4"", ""2"", ""4"", ""2"", ""8"")","c(""baking powder"", ""sugar"", ""eggs"", ""vanilla"", ""butter"")"
-Bulgarian Chushki Burek (Bulgarian Peppers Burek),"c(""8"", ""500"", ""100"", ""5"", ""300"", ""3 -4"", ""1"", ""1"", ""2"", ""1/4"", ""150"", ""500"", ""2"", ""1"", ""2"", ""2"", ""1"", ""1"", ""1/2"")","c(""bell peppers"", ""feta cheese"", ""eggs"", ""garlic cloves"", ""tomatoes"", ""thyme"", ""parsley"", ""black pepper"", ""olive oil"", ""plain yogurt"", ""garlic cloves"", ""salt"", ""dill"", ""parsley"", ""olive oil"", ""white vinegar"", ""salt"")"
-Crossing-Culture Chinese Hoisin Pizza,"c(""1 3/4"", ""3"", ""1/4"", ""2"", ""1"", ""1"", ""6"", ""1"", ""1"", ""1 1/2"", ""1/2"")","c(""hoisin sauce"", ""hoisin sauce"", ""garlic"", ""fresh ginger"", ""sambal oelek"", ""green onions"", ""mozzarella cheese"", ""cilantro leaf"")"
-Key Lime Fruit Salad,"c(""1"", ""2"", ""2"", ""1"", ""2"", ""1"", ""2"", ""1/4"")","c(""fresh pineapple chunks"", ""strawberry"", ""green grapes"", ""blueberries"", ""cantaloupe"")"
-Dad's Tuna Melt Casserole,"c(""1"", ""1"", ""2"", ""2"", ""1"", ""1"")","c(""tuna"", ""cheese"")"
-Harvest Pie,"c(""1"", ""1/2"", ""3/4"", ""1/2"", ""1"", ""1/2"", ""1/8"", ""1/8"", ""1/4"", ""1/4"", ""2"", ""1"")","c(""fat-free evaporated milk"", ""sugar"", ""egg substitute"", ""vanilla"", ""cinnamon"", ""ground cloves"", ""allspice"", ""flour"", ""dark brown sugar"", ""pecans"")"
-The Best Chocolate Chip Cookies Ever Recipe Courtesy George Dura,"c(""2 1/2"", ""1"", ""1"", ""1"", ""1 1/2"", ""1/2"", ""2"", ""1"", ""2"")","c(""all-purpose flour"", ""baking soda"", ""salt"", ""unsalted butter"", ""brown sugar"", ""sugar"", ""eggs"", ""vanilla"", ""chocolate chips"")"
-Beef Cheese Ball,"c(""2"", ""2"", ""1 1/2 - 2"", ""4"", ""4"")","c(""deli roast beef"", ""cream cheese"", ""horseradish"", ""onions"", ""Worcestershire sauce"")"
-Lettuce-Wrapped Beef and Pepper Fajitas,"c(""1"", ""1"", ""1/2"", ""1"", ""1"", ""1"", ""1"", ""2"", ""1/2"", ""1"", ""1/4"", ""8"")","c(""chili powder"", ""salt"", ""green pepper"", ""onion"", ""garlic cloves"", ""salsa"", ""lime juice"", ""lemon juice"", ""light sour cream"", ""lettuce leaves"")"
-"Beef Stew With Poblanos, Tomatillos, and Potatoes","c(""2"", ""1"", ""2"", ""1/3"", ""2"", ""1"", ""12"", ""2"", ""1"", ""1"", ""1 1/2"", ""6"", ""28"", ""14"", ""6"", ""1/2"", ""3/4"", NA)","c(""poblano chiles"", ""olive oil"", ""onions"", ""flour"", ""beef stew meat"", ""salt"", ""beer"", ""water"", ""green pepper"", ""fresh oregano"", ""dried oregano"", ""cumin"", ""garlic cloves"", ""low sodium beef broth"", ""white potatoes"", ""fresh pepper"", ""queso fresco"", ""cilantro"")"
-Mixed Bean Casserole,"c(""2"", ""1"", ""1/2"", ""1"", ""2"", ""1"", ""1"", ""1"", ""1"")","c(""hamburger"", ""water"", ""ketchup"", ""brown sugar"", ""pepper"", ""black beans"", ""butter beans"")"
+Name,RecipeIngredientParts
+Chocolate Chocolate Chip Pancakes,1
+Go Patriots Meatballs,1
+Green Onion Fritters,2
+Lower Fat Reuben Bites,2
+Dad's Tuna Melt Casserole,2
+Hot Italian Cheesy Dip,3
+Almond Amaretto Fudge,3
+Pina Colada Sherbet,3
+Bleu Cheese Bread,3
+Chicken Casadillas,4
+Kung Pao Shrimp,4
+Spinach – Creamy Parmesan,4
+Cyprus - Souvlakia - Pork Kebab,5
+Garlic Chicken Nuggets,5
+Bully Hill Coleslaw,5
+Russian Omelet,5
+Kabocha Salad,5
+Smoked Turkey Cheese Ball,5
+Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip,5
+Da Best Butter Mochi,5
+Key Lime Fruit Salad,5
+Beef Cheese Ball,5
+A Different Type of Chicken Wing,6
+Sweet Potato Cakes,6
+Paglia E Fieno,6
+Bacon Spinach and Cream Potatoes,6
+Mutt Meatballs,6
+Barefoot Contessa's Mashed Potatoes,6
+Mini Quiche,6
+Mini Sausage Rolls,6
+Cream of Artichoke Soup With Chervil and Fried Artichokes,6
+Caramel Ice Cream Delight,6
+Southwestern Pinwheels,6
+Sesame Spaghetti Salad,6
+Teriyaki Turkey Burgers,6
+Roasted Garlic &amp; Spinach Spirals,6
+Gnocchi Romana,7
+Barefoot Contessa's Tequila Lime Chicken,7
+Swedish Pancakes,7
+Feta Cheese Ball,7
+Baked Onions With Thyme,7
+Veggie Cream Cheese Pizza,7
+Texas Chili Powder - Bulk,7
+Potato Salad With Green Onion and Mustard  Raspberry Vinaigrett,7
+Barefoot Contessa's Sun-Dried Tomato Dip (Light Version),7
+Cauliflower With Toasted Mustard Seeds,7
+Skillet Herbed Cabbage,7
+Mixed Bean Casserole,7
+Barefoot Contessa's Parmesan Roasted Asparagus,8
+Spicy Pulled Pork,8
+Australian Seafood Platter,8
+Mom's Simple Goulash,8
+Wild Rice and Turkey Casserole,8
+Cornbread &amp; Sausage Wheel,8
+Easy Black Bean Soup,8
+Amanda's Delicious Cilantro Potato Salad,8
+"Scalloped, Not-Too-Cheesy Potatoes",8
+Popping Pepper Packs,8
+Crossing-Culture Chinese Hoisin Pizza,8
+Lentil Rice Dish  (Mujadarah Arabic Dish),9
+Garlicky Mushroom Pakoras,9
+"Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)",9
+Wonder Salad,9
+Fidget Pie,9
+Baked Potato Soup,9
+Cheesy Crab and Broccoli,9
+Easy French Toast,9
+Almond Cookies,9
+Christmas Bread (Almond-Filled Challah),9
+The Best Chocolate Chip Cookies Ever Recipe Courtesy George Dura,9
+Quick Pasta Supper,10
+Puff Pastry Toasted Sandwiches in Your Sandwich Maker!,10
+Eastern Chicken Gravy With Rice,10
+Italian Casserole (Rigatoni and Cheese With Tomato Sauce),10
+Crock Pot Curried Split Pea Soup,10
+Black and White Bean Chili,10
+Stuffed Bell Pepper Soup,10
+Corn and Bell Peppers Stuffed Zucchini,10
+Spinach Salad With Poppy Seed Dressing,10
+Baked French Toast Casserole,10
+Tex-Mex Tostadas (Lower Fat),10
+Harvest Pie,10
+Lettuce-Wrapped Beef and Pepper Fajitas,10
+Leek and Potato Tart,12
+Mom's Dinner Salad,12
+Barbecued Beef on Buns,12
+Steak &amp; Pasta,12
+Aubergine (Eggplant) Curry (2),12
+Salmon Canapes,13
+Vegetable-Barley Pot Pie / Pies,13
+Heartwarming Beef-Barley Soup,13
+Asian Turkey Salad,14
+Leftover Holiday Ham &amp; Split Pea Soup,14
+Spicy Bean Stew With Sausages,15
+Diabetic Friendly Country Apricot Tart,15
+Calcutta Style Beef Curry,15
+Bulgarian Chushki Burek (Bulgarian Peppers Burek),17
+Tuna Lasagna With  Italian Spiced White Sauce,18
+"Beef Stew With Poblanos, Tomatillos, and Potatoes",18
+Zooma's Spiced Pumpkin Cheesecake,22

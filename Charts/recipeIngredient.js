@@ -25,10 +25,22 @@ function processData(allRows){
 
 
   console.log("Ingredients", temp);
+}*/
+
+function processData(allRows){
+  let ingredients = [];
+  let name = [];
+  let row;
+
+  for(let i = 0; i < allRows.length; i++) {
+    row = allRows[i];
+
+    ingredients.push(row["RecipeIngredientParts"]);
+    name.push(row["Name"]);
+  }
+
+  console.log("Name", name);
 }
- */
-
-
 
 
 let numberOfIngredients = {
@@ -107,10 +119,10 @@ let numberOfIngredients = {
       fontColor: '#7e7e7e',
       fontAngle: 15,
     },
-    labels: ["Quick Pasta Supper", "Asian Turkey Salad","A Different Type of Chicken Wing","Barefoot Contessa's Parmesan Roasted Asparagus","Leek and Potato Tart","Lentil Rice Dish  (Mujadarah Arabic Dish)","Sweet Potato Cakes","Garlicky Mushroom Pakoras","Chicken Casadillas","Cyprus - Souvlakia - Pork Kebab","Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)","Paglia E Fieno","Gnocchi Romana","Puff Pastry Toasted Sandwiches","Barefoot Contessa's Tequila Lime Chicken","Spicy Pulled Pork","Kung Pao Shrimp","Bacon Spinach and Cream Potatoes","Wonder Salad","Eastern Chicken Gravy With Rice","Mutt Meatballs","Garlic Chicken Nuggets","Australian Seafood Platter","Mom's Simple Goulash","Barefoot Contessa's Mashed Potatoes","Mini Quiche","Mini Sausage Rolls","Italian Casserole (Rigatoni and Cheese With Tomato Sauce)","Cream of Artichoke Soup With Chervil and Fried Artichokes","Fidget Pie","Swedish Pancakes","Mom's Dinner Salad","Wild Rice and Turkey Casserole","Salmon Canapes","Caramel Ice Cream Delight","Bully Hill Coleslaw","Cornbread & Sausage Wheel","Zooma's Spiced Pumpkin Cheesecake","Crock Pot Curried Split Pea Soup","Black and White Bean Chili","Feta Cheese Ball","Baked Onions With Thyme","Hot Italian Cheesy Dip","Stuffed Bell Pepper Soup","Southwestern Pinwheels","Spinach – Creamy Parmesan","Green Onion Fritters","Russian Omelet","Chocolate Chocolate Chip Pancakes","Corn and Bell Peppers Stuffed Zucchini","Baked Potato Soup","Easy Black Bean Soup","Leftover Holiday Ham & Split Pea Soup","Go Patriots Meatballs","Sesame Spaghetti Salad","Amanda's Delicious Cilantro Potato Salad","Veggie Cream Cheese Pizza","Spicy Bean Stew With Sausages","Kabocha Salad","Almond Amaretto Fudge","Spinach Salad With Poppy Seed Dressing","Smoked Turkey Cheese Ball","Texas Chili Powder - Bulk","Potato Salad With Green Onion and Mustard Raspberry Vinaigrett","Cheesy Crab and Broccoli","Tuna Lasagna With Italian Spiced White Sauce","Barefoot Contessa's Sun-Dried Tomato Dip (Light Version)","Scalloped, Not-Too-Cheesy Potatoes","Vegetable-Barley Pot Pie / Pies","Teriyaki Turkey Burgers","Barbecued Beef on Buns","Steak & Pasta","Aubergine (Eggplant) Curry","Cauliflower With Toasted Mustard Seeds","Diabetic Friendly Country Apricot Tart","Easy French Toast","Skillet Herbed Cabbage","Calcutta Style Beef Curry","Pina Colada Sherbet","Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip","Heartwarming Beef-Barley Soup","Lower Fat Reuben Bites","Baked French Toast Casserole","Bleu Cheese Bread","Roasted Garlic & Spinach Spirals","Tex-Mex Tostadas (Lower Fat)","Popping Pepper Packs","Almond Cookies","Christmas Bread (Almond-Filled Challah)","Da Best Butter Mochi","Bulgarian Chushki Burek (Bulgarian Peppers Burek)","Crossing-Culture Chinese Hoisin Pizza","Key Lime Fruit Salad","Dad's Tuna Melt Casserole","Harvest Pie","The Best Chocolate Chip Cookies Ever","Beef Cheese Ball","Lettuce-Wrapped Beef and Pepper Fajitas","Beef Stew With Poblanos, Tomatillos, and Potatoes","Mixed Bean Casserole"],
+    labels: ['Chocolate Chocolate Chip Pancakes', 'Go Patriots Meatballs', 'Green Onion Fritters', 'Lower Fat Reuben Bites', "Dad's Tuna Melt Casserole", 'Hot Italian Cheesy Dip', 'Almond Amaretto Fudge', 'Pina Colada Sherbet', 'Bleu Cheese Bread', 'Chicken Casadillas', 'Kung Pao Shrimp', 'Spinach – Creamy Parmesan', 'Cyprus - Souvlakia - Pork Kebab', 'Garlic Chicken Nuggets', 'Bully Hill Coleslaw', 'Russian Omelet', 'Kabocha Salad', 'Smoked Turkey Cheese Ball', 'Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip', 'Da Best Butter Mochi', 'Key Lime Fruit Salad', 'Beef Cheese Ball', 'A Different Type of Chicken Wing', 'Sweet Potato Cakes', 'Paglia E Fieno', 'Bacon Spinach and Cream Potatoes', 'Mutt Meatballs', "Barefoot Contessa's Mashed Potatoes", 'Mini Quiche', 'Mini Sausage Rolls', 'Cream of Artichoke Soup With Chervil and Fried Artichokes', 'Caramel Ice Cream Delight', 'Southwestern Pinwheels', 'Sesame Spaghetti Salad', 'Teriyaki Turkey Burgers', 'Roasted Garlic & Spinach Spirals', 'Gnocchi Romana', "Barefoot Contessa's Tequila Lime Chicken", 'Swedish Pancakes', 'Feta Cheese Ball', 'Baked Onions With Thyme', 'Veggie Cream Cheese Pizza', 'Texas Chili Powder - Bulk', 'Potato Salad With Green Onion and Mustard  Raspberry Vinaigrett', "Barefoot Contessa's Sun-Dried Tomato Dip (Light Version)", 'Cauliflower With Toasted Mustard Seeds', 'Skillet Herbed Cabbage', 'Mixed Bean Casserole', "Barefoot Contessa's Parmesan Roasted Asparagus", 'Spicy Pulled Pork', 'Australian Seafood Platter', "Mom's Simple Goulash", 'Wild Rice and Turkey Casserole', 'Cornbread & Sausage Wheel', 'Easy Black Bean Soup', "Amanda's Delicious Cilantro Potato Salad", 'Scalloped, Not-Too-Cheesy Potatoes', 'Popping Pepper Packs', 'Crossing-Culture Chinese Hoisin Pizza', 'Lentil Rice Dish  (Mujadarah Arabic Dish)', 'Garlicky Mushroom Pakoras', 'Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)', 'Wonder Salad', 'Fidget Pie', 'Baked Potato Soup', 'Cheesy Crab and Broccoli', 'Easy French Toast', 'Almond Cookies', 'Christmas Bread (Almond-Filled Challah)', 'The Best Chocolate Chip Cookies Ever Recipe Courtesy George Dura', 'Quick Pasta Supper', 'Puff Pastry Toasted Sandwiches in Your Sandwich Maker!', 'Eastern Chicken Gravy With Rice', 'Italian Casserole (Rigatoni and Cheese With Tomato Sauce)', 'Crock Pot Curried Split Pea Soup', 'Black and White Bean Chili', 'Stuffed Bell Pepper Soup', 'Corn and Bell Peppers Stuffed Zucchini', 'Spinach Salad With Poppy Seed Dressing', 'Baked French Toast Casserole', 'Tex-Mex Tostadas (Lower Fat)', 'Harvest Pie', 'Lettuce-Wrapped Beef and Pepper Fajitas', 'Leek and Potato Tart', "Mom's Dinner Salad", 'Barbecued Beef on Buns', 'Steak & Pasta', 'Aubergine (Eggplant) Curry (2)', 'Salmon Canapes', 'Vegetable-Barley Pot Pie / Pies', 'Heartwarming Beef-Barley Soup', 'Asian Turkey Salad', 'Leftover Holiday Ham & Split Pea Soup', 'Spicy Bean Stew With Sausages', 'Diabetic Friendly Country Apricot Tart', 'Calcutta Style Beef Curry', 'Bulgarian Chushki Burek (Bulgarian Peppers Burek)', 'Tuna Lasagna With  Italian Spiced White Sauce', 'Beef Stew With Poblanos, Tomatillos, and Potatoes', "Zooma's Spiced Pumpkin Cheesecake"],
     lineColor: '#7E7E7E',
     zooming: true,
-    zoomTo: [0, 50],
+    zoomTo: [0, 100],
   },
   scaleY: {
     values: '0:30:10',
@@ -139,7 +151,7 @@ let numberOfIngredients = {
   series: [
     {
       text: 'Ingredients',
-      values: [10, 14, 6, 8, 12, 9, 6, 9, 4, 5, 9, 6, 7, 10, 7, 8, 4, 6, 9, 10, 6, 5, 8, 8, 6, 6, 6, 10, 6, 9, 7, 12, 8, 13, 6, 5, 8, 22, 10, 10, 7, 7, 3, 10, 6, 4, 2, 5, 1, 10, 9, 8, 14, 1, 6, 8, 7, 15, 5, 3, 10, 5, 7, 7, 9, 18, 7, 8, 13, 6, 12, 12, 12, 7, 15, 9, 7, 15, 3, 5, 13, 2, 10, 3, 6, 10, 8, 9, 9, 5, 17, 8, 5, 2, 10, 9, 5, 10, 18, 7
+      values: [1,1,2,2,2,3,3,3,3,4,4,4,5,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,10,10,10,10,10,10,10,10,10,10,10,10,10,12,12,12,12,12,13,13,13,14,14,15,15,15,17,18,18,22
       ],
       borderRadiusTopLeft: '7px',
       alpha: 0.95,

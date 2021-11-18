@@ -1,4 +1,4 @@
-
+/**
 function plotFromCSV() {
     Plotly.d3.csv("CSV/recipeKeywords.csv", function(err, rows) {
         processData(rows);
@@ -33,6 +33,7 @@ function processData(allRows){
   console.log("test", temp2);
 
 }
+ */
 
 let recipeKeywords = {
   type: 'wordcloud',
@@ -76,4 +77,3 @@ zingchart.render({
 
 
 
-plotFromCSV();
