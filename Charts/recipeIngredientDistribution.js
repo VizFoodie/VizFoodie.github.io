@@ -4,6 +4,7 @@ function plotFromCSV() {
   });
 }
 
+/**
 function processData(allRows){
   let ingredients = [];
   let ingredientslist = [];
@@ -35,6 +36,7 @@ function processData(allRows){
 
   console.log("Ingredients", ingredientnumber);
 }
+*/
 
 let ingredientDistribution = {
   type: 'bar',
