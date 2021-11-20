@@ -25,7 +25,7 @@ function processData(allRows){
 
 
   console.log("Ingredients", temp);
-}*/
+}
 
 function processData(allRows){
   let ingredients = [];
@@ -41,6 +41,7 @@ function processData(allRows){
 
   console.log("Name", name);
 }
+ */
 
 
 let numberOfIngredients = {
