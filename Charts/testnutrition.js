@@ -5,6 +5,7 @@ function plotFromCSV() {
   });
 }
 
+/**
 function processData(allRows){
   let name = [];
   let row;
@@ -17,6 +18,7 @@ function processData(allRows){
 
   console.log("Name", name);
 }
+ */
 
 
 let calories = {
