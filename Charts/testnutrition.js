@@ -1,6 +1,6 @@
 
 function plotFromCSV() {
-  Plotly.d3.csv("CSV/protein.csv", function(err, rows) {
+  Plotly.d3.csv("CSV/saturatedfat.csv", function(err, rows) {
     processData(rows);
   });
 }
