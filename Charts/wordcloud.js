@@ -30,7 +30,7 @@ let chartConfig = {
     minLength: '4px',
     palette: ['#bdc3c7', '#1abc9c', '#3498db', '#9b59b6', '#f1c40f', '#e74c3c', '#2ecc71', '#e67e22'],
     style: {
-      fontFamily: 'Playfair Display',
+      fontFamily: 'sans-serif',
       hoverState: {
         backgroundColor: '#1976D2',
         borderColor: 'none',
@@ -46,7 +46,7 @@ let chartConfig = {
         borderRadius: 2,
         borderColor: 'none',
         fontColor: 'white',
-        fontFamily: 'Playfair Display',
+        fontFamily: 'sans-serif',
         textAlpha: 1
       }
     }

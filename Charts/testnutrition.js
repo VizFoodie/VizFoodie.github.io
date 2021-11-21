@@ -115,7 +115,7 @@ let calories = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -233,7 +233,7 @@ let fat = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -351,7 +351,7 @@ let saturatedFat = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -470,7 +470,7 @@ let cholesterol = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -588,7 +588,7 @@ let sodium = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -706,7 +706,7 @@ let carbohydrate = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -824,7 +824,7 @@ let fiber = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -942,7 +942,7 @@ let sugar = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
@@ -1060,7 +1060,7 @@ let protein = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'

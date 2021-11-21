@@ -48,7 +48,7 @@ let ingredientDistribution = {
     backgroundColor: 'none',
     fontColor: '#7E7E7E',
     fontSize: '22px',
-    fontFamily: 'Playfair Display',
+    fontFamily: 'sans-serif',
   },
   plot: {
     animation: {
@@ -94,7 +94,7 @@ let ingredientDistribution = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'Playfair Display',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
     },
     lineColor: '#7E7E7E',
@@ -114,7 +114,7 @@ let ingredientDistribution = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'Playfair Display',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '70px',
       offsetY: '-190px'
@@ -132,7 +132,7 @@ let ingredientDistribution = {
       borderRadiusTopLeft: '7px',
       alpha: 0.95,
       backgroundColor: '#8dd3c7',
-      fontFamily: 'Playfair Display',
+      fontFamily: 'sans-serif',
     }
 
   ]

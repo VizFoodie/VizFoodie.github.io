@@ -8,7 +8,7 @@ let instructionDistribution = {
     backgroundColor: 'none',
     fontColor: '#7E7E7E',
     fontSize: '22px',
-    fontFamily: 'Playfair Display',
+    fontFamily: 'sans-serif',
   },
   plot: {
     animation: {
@@ -54,7 +54,7 @@ let instructionDistribution = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'Playfair Display',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
     },
     lineColor: '#7E7E7E',
@@ -74,7 +74,7 @@ let instructionDistribution = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'Playfair Display',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '70px',
       offsetY: '-190px'
@@ -92,7 +92,7 @@ let instructionDistribution = {
       borderRadiusTopLeft: '7px',
       alpha: 0.95,
       backgroundColor: '#fb8072',
-      fontFamily: 'Playfair Display',
+      fontFamily: 'sans-serif',
     }
 
   ]

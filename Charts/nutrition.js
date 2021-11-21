@@ -138,7 +138,7 @@ let nutrition = {
       bold: true,
       fontAngle: 0,
       fontColor: '#7E7E7E',
-      fontFamily: 'arial',
+      fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
       offsetY: '-190px'
