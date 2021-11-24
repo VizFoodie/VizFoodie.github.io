@@ -9,6 +9,7 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
   body {
     font-family: sans-serif;
@@ -49,7 +50,15 @@
 
   <hr />
 
-  
+  <div class="w3-content" style="max-width:1100px;">
+
+
+    <div class="w3-center w3-padding-large">
+      <h1 class="w3-center">3D SCATTER PLOT FOR RECIPE TIMES</h1><br>
+      <div style="height: 800px" id="recipeTime" class="chart--container"></div>
+    </div>
+
+  </div>
 </div>
 
 <!-- Footer -->
@@ -57,4 +66,5 @@
   <p>University of Hawaii at Manoa ICS484 / ACM 484 Data Visualization Project</a></p>
 </footer>
 </body>
+<script src="Charts/recipeCookTime.js"></script>
 </html>

@@ -8,6 +8,7 @@ function plotFromCSV() {
       x: unpack(rows, 'CookTime'),
       y: unpack(rows, 'PrepTime'),
       z: unpack(rows, 'TotalTime'),
+      text: unpack(rows, 'Name'),
       mode: 'markers',
       marker: {
         size: 12,
@@ -19,7 +20,12 @@ function plotFromCSV() {
         colorscale: "Blues",
       },
       type: 'scatter3d',
-      name: 'Recipe Times (min)',
+      hovertemplate:
+          "<br><b>Name</b>: %{text}</br>" +
+          "<b>Cook Time</b>: %{x}" +
+          "<br><b>Prep Time</b>: %{y}</br>" +
+          "<b>Total Time</b>: %{z}" +
+          "<extra></extra>"
     };
 
     var data = [recipeTime];
@@ -31,8 +37,8 @@ function plotFromCSV() {
         zaxis:{title: 'Total Time'},
       },
       margin: {
-        l: 0,
-        r: 0,
+        l: 50,
+        r: 50,
         b: 0,
         t: 0
       }};
