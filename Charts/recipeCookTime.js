@@ -37,23 +37,30 @@ function plotFromCSV() {
         zaxis:{title: 'Total Time'},
         camera: {
           eye: {
-            x: -2.303949328367718,
-            y: -1.329700976225118,
-            z: 0.41927207492256047
-          }
+            x: -1.7787630955548568,
+            y: -1.7859172491560837,
+            z: 0.8513098143727982
+          },
+          center: {
+            x: -0.0163040773792296,
+            y: -0.029963282120377546,
+            z: -0.2088584456851563,
+          },
+          projection: {type: 'perspective'},
+          up: {x: 0, y: 0, z: 1},
         },
       },
       margin: {
-        l: 50,
-        r: 50,
+        l: 0,
+        r: 0,
         b: 0,
         t: 0
       },
-
     };
 
     Plotly.newPlot('recipeTime', data, layout);
-    
+    // var myPlot = document.getElementById('recipeTime');
+    // myPlot.on('plotly_relayout', function(data){console.log(data)});
   });
 }
 
