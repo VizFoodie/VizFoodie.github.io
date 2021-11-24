@@ -11,7 +11,7 @@ function plotFromCSV() {
       text: unpack(rows, 'Name'),
       mode: 'markers',
       marker: {
-        size: 12,
+        size: 10,
         line: {
           color: 'rgba(217, 217, 217, 0.14)',
           width: 0.5},

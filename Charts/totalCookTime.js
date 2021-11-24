@@ -26,13 +26,13 @@ var layout = {
     pad: 0,
   },
 
-  title:'Calories',
-
   yaxis: {
     range: [-37, 367],
+    title: 'Time (Min)',
   },
   xaxis: {
     range: [-0.54,27.6],
+
     tickangle: 45
   }
 };
