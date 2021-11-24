@@ -35,18 +35,25 @@ function plotFromCSV() {
         xaxis:{title: 'Cook Time'},
         yaxis:{title: 'Prep Time'},
         zaxis:{title: 'Total Time'},
+        camera: {
+          eye: {
+            x: -2.303949328367718,
+            y: -1.329700976225118,
+            z: 0.41927207492256047
+          }
+        },
       },
       margin: {
         l: 50,
         r: 50,
         b: 0,
         t: 0
-      }};
+      },
+
+    };
 
     Plotly.newPlot('recipeTime', data, layout);
-
-
-
+    
   });
 }
 
