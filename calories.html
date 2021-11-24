@@ -5,13 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
 <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
-  body {font-family: sans-serif;}
+  body {
+    font-family: sans-serif;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     letter-spacing: 5px;
@@ -55,32 +59,15 @@
     <div class="w3-row w3-padding-64" id="about">
 
       <div class="w3-center w3-padding-large">
-        <h1 class="w3-center">Searching For New Recipes?</h1><br>
-        <p class="w3-large">Can't seem to find the recipe you look from the samples or just want to casually surf through <a href="https://www.food.com/">food.com</a> for a dinner plan next week? The word clouds below are based on the amount a certain category or keyword had appeared in each recipe. So lets say your craving some greek food, only one recipe is related to greek food while a recipe related to european can have four times the amount of recipes listed.</p>
+        <h1 class="w3-center">Calories</h1><br>
+        <p class="w3-large">Need a recipe that's high in calories for gaining weight or something that has low calories for a diet? Then the chart below has 100 recipes sampled ordered from least amount of calories to greatest. Make a holiday Christmas Bread for the family that has the 4489.5 calories. Or have the Wild Rice and Turkey Casserole for 143.4 calories that will fill you right up.</p>
       </div>
     </div>
   </div>
 
   <hr/>
 
-  <div class="w3-content" style="max-width:1100px">
-      <div class="w3-center w3-padding-large">
-        <h1 class="w3-center">Most Popular Categories</h1><br>
-        <div id="myChart" class="chart--container"></div>
-      </div>
-  </div>
-
-  <hr/>
-
-  <div class="w3-content" style="max-width:1100px">
-
-
-    <div class="w3-center w3-padding-large">
-      <h1 class="w3-center">Most Popular Keywords</h1><br>
-      <div id="recipeKeywords" class="chart--container"></div>
-    </div>
-
-  </div>
+  <div id="calories" class="chart--container"></div>
 
   <!-- End page content -->
 </div>
@@ -91,7 +78,6 @@
 </footer>
 
 </body>
-<script src="Charts/wordcloud.js"></script>
-<script src="Charts/recipeKeywords.js"></script>
+<script src="Charts/testnutrition.js"></script>
 </html>
 

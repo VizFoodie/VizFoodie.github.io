@@ -24,6 +24,7 @@ function processData(allRows){
 let calories = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Calories Per Recipe',
     margin: '15px auto',
@@ -66,7 +67,7 @@ let calories = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -97,13 +98,13 @@ let calories = {
       fontColor: '#7e7e7e',
       fontAngle: 15,
     },
-    labels: ['Go Patriots Meatballs', 'Texas Chili Powder - Bulk', 'Corn and Bell Peppers Stuffed Zucchini', 'Mutt Meatballs', 'Lower Fat Reuben Bites', 'Southwestern Pinwheels', 'Skillet Herbed Cabbage', 'Kabocha Salad', 'Key Lime Fruit Salad', 'Almond Cookies', 'Salmon Canapes', 'Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip', "Barefoot Contessa's Parmesan Roasted Asparagus", 'Baked Onions With Thyme', 'Green Onion Fritters', 'Chocolate Chocolate Chip Pancakes', 'Garlicky Mushroom Pakoras', 'Mini Quiche', 'Tex-Mex Tostadas (Lower Fat)', 'Wild Rice and Turkey Casserole', 'Diabetic Friendly Country Apricot Tart', 'Stuffed Bell Pepper Soup', 'Cauliflower With Toasted Mustard Seeds', 'Roasted Garlic &amp; Spinach Spirals', 'The Best Chocolate Chip Cookies Ever Recipe Courtesy George Dura', 'Beef Cheese Ball', 'Popping Pepper Packs', 'Cheesy Crab and Broccoli', "Mom's Dinner Salad", "Amanda's Delicious Cilantro Potato Salad", 'Steak &amp; Pasta', 'Almond Amaretto Fudge', 'Heartwarming Beef-Barley Soup', 'Bully Hill Coleslaw', 'Harvest Pie', "Dad's Tuna Melt Casserole", 'Easy Black Bean Soup', 'Bleu Cheese Bread', 'Potato Salad With Green Onion and Mustard  Raspberry Vinaigrette', 'Lentil Rice Dish  (Mujadarah Arabic Dish)', "Mom's Simple Goulash", 'Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)', "Barefoot Contessa's Tequila Lime Chicken", 'Veggie Cream Cheese Pizza', 'Leftover Holiday Ham & Split Pea Soup', 'Barbecued Beef on Buns', 'Sweet Potato Cakes', 'Spinach – Creamy Parmesan', 'Vegetable-Barley Pot Pie / Pies', 'Crossing-Culture Chinese Hoisin Pizza', 'Asian Turkey Salad', 'Aubergine (Eggplant) Curry', 'Teriyaki Turkey Burgers', 'Pina Colada Sherbet', 'Kung Pao Shrimp', 'Crock Pot Curried Split Pea Soup', 'Hot Italian Cheesy Dip', 'Bacon Spinach and Cream Potatoes', 'Tuna Lasagna With  Italian Spiced White Sauce', 'Sesame Spaghetti Salad', "Barefoot Contessa's Mashed Potatoes", 'Black and White Bean Chili', 'Spicy Pulled Pork', 'Cream of Artichoke Soup With Chervil and Fried Artichokes', 'Spicy Bean Stew With Sausages', 'Lettuce-Wrapped Beef and Pepper Fajitas', 'A Different Type of Chicken Wing', 'Australian Seafood Platter', 'Russian Omelet', 'Eastern Chicken Gravy With Rice', 'Mini Sausage Rolls', 'Italian Casserole (Rigatoni and Cheese With Tomato Sauce)', 'Chicken Casadillas', 'Easy French Toast', 'Swedish Pancakes', 'Quick Pasta Supper', 'Scalloped, Not-Too-Cheesy Potatoes', 'Da Best Butter Mochi', 'Caramel Ice Cream Delight', 'Baked French Toast Casserole', 'Beef Stew With Poblanos, Tomatillos, and Potatoes', "Barefoot Contessa's Sun-Dried Tomato Dip (Light Version)", 'Cyprus - Souvlakia - Pork Kebab', 'Mixed Bean Casserole', 'Gnocchi Romana', 'Fidget Pie', 'Baked Potato Soup', 'Garlic Chicken Nuggets', 'Leek and Potato Tart', 'Spinach Salad With Poppy Seed Dressing', "Zooma's Spiced Pumpkin Cheesecake", 'Citrus Glazed Barbecued Pork Loin', 'Paglia E Fieno', 'Bulgarian Chushki Burek (Bulgarian Peppers Burek)', 'Feta Cheese Ball', 'Puff Pastry Toasted Sandwiches in Your Sandwich Maker!', 'Calcutta Style Beef Curry', 'Smoked Turkey Cheese Ball', 'Cornbread & Sausage Wheel', 'Christmas Bread (Almond-Filled Challah)'],
+    labels: ['Go Patriots Meatballs', 'Texas Chili Powder - Bulk', 'Corn and Bell Peppers Stuffed Zucchini', 'Mutt Meatballs', 'Lower Fat Reuben Bites', 'Southwestern Pinwheels', 'Skillet Herbed Cabbage', 'Kabocha Salad', 'Key Lime Fruit Salad', 'Almond Cookies', 'Salmon Canapes', 'Low Fat Buffalo Chicken Tenders W/ Blue Cheese Dip', "Barefoot Contessa's Parmesan Roasted Asparagus", 'Baked Onions With Thyme', 'Green Onion Fritters', 'Chocolate Chocolate Chip Pancakes', 'Garlicky Mushroom Pakoras', 'Mini Quiche', 'Tex-Mex Tostadas (Lower Fat)', 'Wild Rice and Turkey Casserole', 'Diabetic Friendly Country Apricot Tart', 'Stuffed Bell Pepper Soup', 'Cauliflower With Toasted Mustard Seeds', 'Roasted Garlic & Spinach Spirals', 'The Best Chocolate Chip Cookies Ever Recipe Courtesy George Dura', 'Beef Cheese Ball', 'Popping Pepper Packs', 'Cheesy Crab and Broccoli', "Mom's Dinner Salad", "Amanda's Delicious Cilantro Potato Salad", 'Steak & Pasta', 'Almond Amaretto Fudge', 'Heartwarming Beef-Barley Soup', 'Bully Hill Coleslaw', 'Harvest Pie', "Dad's Tuna Melt Casserole", 'Easy Black Bean Soup', 'Bleu Cheese Bread', 'Potato Salad With Green Onion and Mustard  Raspberry Vinaigrette', 'Lentil Rice Dish  (Mujadarah Arabic Dish)', "Mom's Simple Goulash", 'Vegan Green Garden Puree (For Pizza, Lasagna or Pasta)', "Barefoot Contessa's Tequila Lime Chicken", 'Veggie Cream Cheese Pizza', 'Leftover Holiday Ham & Split Pea Soup', 'Barbecued Beef on Buns', 'Sweet Potato Cakes', 'Spinach – Creamy Parmesan', 'Vegetable-Barley Pot Pie / Pies', 'Crossing-Culture Chinese Hoisin Pizza', 'Asian Turkey Salad', 'Aubergine (Eggplant) Curry', 'Teriyaki Turkey Burgers', 'Pina Colada Sherbet', 'Kung Pao Shrimp', 'Crock Pot Curried Split Pea Soup', 'Hot Italian Cheesy Dip', 'Bacon Spinach and Cream Potatoes', 'Tuna Lasagna With  Italian Spiced White Sauce', 'Sesame Spaghetti Salad', "Barefoot Contessa's Mashed Potatoes", 'Black and White Bean Chili', 'Spicy Pulled Pork', 'Cream of Artichoke Soup With Chervil and Fried Artichokes', 'Spicy Bean Stew With Sausages', 'Lettuce-Wrapped Beef and Pepper Fajitas', 'A Different Type of Chicken Wing', 'Australian Seafood Platter', 'Russian Omelet', 'Eastern Chicken Gravy With Rice', 'Mini Sausage Rolls', 'Italian Casserole (Rigatoni and Cheese With Tomato Sauce)', 'Chicken Casadillas', 'Easy French Toast', 'Swedish Pancakes', 'Quick Pasta Supper', 'Scalloped, Not-Too-Cheesy Potatoes', 'Da Best Butter Mochi', 'Caramel Ice Cream Delight', 'Baked French Toast Casserole', 'Beef Stew With Poblanos, Tomatillos, and Potatoes', "Barefoot Contessa's Sun-Dried Tomato Dip (Light Version)", 'Cyprus - Souvlakia - Pork Kebab', 'Mixed Bean Casserole', 'Gnocchi Romana', 'Fidget Pie', 'Baked Potato Soup', 'Garlic Chicken Nuggets', 'Leek and Potato Tart', 'Spinach Salad With Poppy Seed Dressing', "Zooma's Spiced Pumpkin Cheesecake", 'Citrus Glazed Barbecued Pork Loin', 'Paglia E Fieno', 'Bulgarian Chushki Burek (Bulgarian Peppers Burek)', 'Feta Cheese Ball', 'Puff Pastry Toasted Sandwiches in Your Sandwich Maker!', 'Calcutta Style Beef Curry', 'Smoked Turkey Cheese Ball', 'Cornbread & Sausage Wheel', 'Christmas Bread (Almond-Filled Challah)'],
     lineColor: '#7E7E7E',
     zooming: true,
     zoomTo: [0, 100],
   },
   scaleY: {
-    values: '0:3000:10',
+    values: '0:4500:10',
     guide: {
       visible: true
     },
@@ -118,7 +119,7 @@ let calories = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -142,6 +143,7 @@ let calories = {
 let fat = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Fat Per Recipe',
     margin: '15px auto',
@@ -184,7 +186,7 @@ let fat = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -236,7 +238,7 @@ let fat = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -260,6 +262,7 @@ let fat = {
 let saturatedFat = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Saturated Fat Per Recipe',
     margin: '15px auto',
@@ -302,7 +305,7 @@ let saturatedFat = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -354,7 +357,7 @@ let saturatedFat = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -379,6 +382,7 @@ let saturatedFat = {
 let cholesterol = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Cholesterol Per Recipe',
     margin: '15px auto',
@@ -421,7 +425,7 @@ let cholesterol = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -473,7 +477,7 @@ let cholesterol = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -497,6 +501,7 @@ let cholesterol = {
 let sodium = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Sodium Per Recipe',
     margin: '15px auto',
@@ -539,7 +544,7 @@ let sodium = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -591,7 +596,7 @@ let sodium = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -615,6 +620,7 @@ let sodium = {
 let carbohydrate = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Carbohydrate Per Recipe',
     margin: '15px auto',
@@ -657,7 +663,7 @@ let carbohydrate = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -709,7 +715,7 @@ let carbohydrate = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -733,6 +739,7 @@ let carbohydrate = {
 let fiber = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Fiber Per Recipe',
     margin: '15px auto',
@@ -775,7 +782,7 @@ let fiber = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -827,7 +834,7 @@ let fiber = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -851,6 +858,7 @@ let fiber = {
 let sugar = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Sugar Per Recipe',
     margin: '15px auto',
@@ -893,7 +901,7 @@ let sugar = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -945,7 +953,7 @@ let sugar = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
@@ -969,6 +977,7 @@ let sugar = {
 let protein = {
   type: 'bar',
   backgroundColor: 'white',
+  fontFamily: 'sans-serif',
   title: {
     text: 'Number of Protein Per Recipe',
     margin: '15px auto',
@@ -1011,7 +1020,7 @@ let protein = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -1063,7 +1072,7 @@ let protein = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
