@@ -59,8 +59,8 @@ function plotFromCSV() {
     };
 
     Plotly.newPlot('recipeTime', data, layout);
-    var myPlot = document.getElementById('recipeTime');
-    myPlot.on('plotly_relayout', function(data){console.log(data)});
+    // var myPlot = document.getElementById('recipeTime');
+    // myPlot.on('plotly_relayout', function(data){console.log(data)});
   });
 }
 

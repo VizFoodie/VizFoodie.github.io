@@ -32,11 +32,12 @@ var layout = {
     range: [-37, 367],
   },
   xaxis: {
-    range: [-0.54,27.6]
+    range: [-0.54,27.6],
+    tickangle: 45
   }
 };
   
 Plotly.newPlot('scatterTime', data, layout, {scrollZoom: true})
-  var myPlot = document.getElementById('scatterTime');
-  myPlot.on('plotly_relayout', function(data){console.log(data)});
+  // var myPlot = document.getElementById('scatterTime');
+  // myPlot.on('plotly_relayout', function(data){console.log(data)});
 });
