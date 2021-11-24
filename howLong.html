@@ -37,7 +37,7 @@
 </div>
 
 <!--page content-->
-<div class="w3-content" style="max-width:1100px">
+<div class="w3-content" style="max-width:1500px">
 
   <div class="w3-content" style="max-width:1100px">
     <div class="w3-row w3-padding-64" id="about">
@@ -51,14 +51,21 @@
   <hr />
 
   <div class="w3-content" style="max-width:1100px;">
-
-
     <div class="w3-center w3-padding-large">
-      <h1 class="w3-center">3D SCATTER PLOT FOR RECIPE TIMES</h1><br>
+      <h1 class="w3-center">Overview of recipe process</h1><br>
       <div style="height: 600px" id="recipeTime" class="chart--container"></div>
     </div>
-
   </div>
+
+  <hr/>
+
+  <div class="w3-content" style="max-width:1100px;height: 1050px;">
+    <div class="w3-center w3-padding-large" >
+      <h1 class="w3-center">Total cook time of recipes</h1><br>
+      <div id="scatterTime" class="chart--container"></div>
+    </div>
+  </div>
+
 </div>
 
 <!-- Footer -->
@@ -67,4 +74,5 @@
 </footer>
 </body>
 <script src="Charts/recipeCookTime.js"></script>
+<script src="Charts/totalCookTime.js"></script>
 </html>
