@@ -1,12 +1,12 @@
 
-Plotly.d3.csv("CSV/recipesNutrition.csv", function (err, rows) {
+Plotly.d3.csv("CSV/recipesCookTime.csv", function (err, rows) {
   function unpack(rows, key) {
     return rows.map(function (row) { return row[key]; });
   }
 
 var trace1 = {
   x: unpack(rows, 'Name'),
-  y: unpack(rows, 'Calories'),
+  y: unpack(rows, 'TotalTime'),
   mode: 'markers',
   type: 'scatter',
   marker: { size: 12 },
@@ -29,11 +29,15 @@ var layout = {
   title:'Calories',
 
   yaxis: {
-    range: [0, 800],
-    automargin: true,
+    range: [-37, 367],
+  },
+  xaxis: {
+    range: [-0.54,27.6],
+    tickangle: 45
   }
 };
   
-Plotly.newPlot('myDiv', data, layout, {scrollZoom: true})
-
+Plotly.newPlot('scatterTime', data, layout, {scrollZoom: true})
+  // var myPlot = document.getElementById('scatterTime');
+  // myPlot.on('plotly_relayout', function(data){console.log(data)});
 });
