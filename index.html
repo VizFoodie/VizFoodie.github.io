@@ -10,7 +10,10 @@
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
-  body {font-family: sans-serif;}
+  body {
+    font-family: sans-serif;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     letter-spacing: 5px;
@@ -40,36 +43,84 @@
       </div>
       <a href="howLong.html" class="w3-bar-item w3-button">How Long?</a>
       <a href="recipeCategories.html" class="w3-bar-item w3-button">Categories & Keywords</a>
-      <a href="test.html" class="w3-bar-item w3-button">TEST GRAPHS/CHARTS</a>
+      <a href="recipeIngredients&Steps.html" class="w3-bar-item w3-button">Ingredients & Steps</a>
       <a href="about.html" class="w3-bar-item w3-button">About</a>
     </div>
   </div>
 </div>
 
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="images/food/logo.jpg" width="1600" height="800">
+</header>
+
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
 
   <!-- About Section -->
-  <div class="w3-content" style="max-width:1100px">
-    <div class="w3-row w3-padding-64" id="about">
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <img src="images/food/pizza-quattro-formaggi-vertical-1570x2355.jpg" class="w3-round w3-image w3-opacity-min"
+           width="600" height="750">
+    </div>
 
-      <div class="w3-center w3-padding-large">
-        <h1 class="w3-center">What's on the menu?</h1><br>
-        <p class="w3-large">Choose a dish you fancy and you can find out the recipe along with nutritious facts.</p>
-      </div>
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Foodies</h1><br>
+      <h5 class="w3-center">What Are We Answering?</h5>
+      <p class="w3-large">As college students we are constantly focused on our classes and don’t have as much time to
+        focus on our food intake, which is very important to our well-being. We want to create a visualization that can
+        help others easily find what recipes they can make by answering specific questions that they have like this:
+
+      <ul style="font-size:18px">
+        <li>I have X amount of time, what can I make using this amount of time?
+        </li>
+        <li>I want a X amount of protein in my meal, what recipe has the highest amount?
+        </li>
+        <li>I want to search for more recipes, how likely will I find a recipe that suits my needs?
+        </li>
+      </ul>
+      </p>
+      <p class="w3-large">Since this data focuses on the time it takes to make as well as the nutrition of various recipes, we can easily see what recipes we can use in our daily lives.
+
+      </p>
     </div>
   </div>
 
-  <hr/>
+  <hr>
 
-  <div class="w3-content" style="max-width:1100px">
-    <div class="w3-center w3-padding-large">
-      <h1 class="w3-center"></h1><br>
-      <div id="menu" style="height: 800px" class="chart--container"></div>
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Exploring Data</h1><br>
+      <p class="w3-large">Because the dataset from kaggle contains 522,517 recipes from 312 different categories, it would require our team to do data analysis. Here are examples of what our team had done to sort through massive amount of data to provide a meaningful and plottable data:
+
+
+      <ul style="font-size:18px">
+        <li>Sampled through the dataset and chose 100 recipes
+        </li>
+        <li>Modified cookTime, prepTime, and totalTime to use minutes only instead of the format like PT1H40M
+        </li>
+        <li>Checking if attributes that are supposed to be unique are actually unique (ratings)
+        </li>
+      </ul>
+      </p>
+
+      <p class="w3-large"> For data processing, we used Excel for sorting columns in order and Javascript to split and count attributes.For visualization, we used <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, <a href="https://plotly.com/javascript/">Plotly.js</a>, and <a href="https://www.zingchart.com/">ZingChart</a> for creating a static nutrition chart, bar charts, and word clouds.
+      </p>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="images/food/pexels-photo-1633578.jpeg" class="w3-round w3-image w3-opacity-min"
+           width="600" height="750">
     </div>
   </div>
 
-
+  <hr>
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64">
+    <h1 class="w3-center">Our Menu</h1><br>
+    <div id="menu" style="height:800px" class="chart--container"></div>
+  </div>
 
   <!-- End page content -->
 </div>

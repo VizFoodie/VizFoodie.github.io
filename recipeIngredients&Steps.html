@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
-<title>Sodium</title>
+<title>Ingredients * Steps</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
 <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
-  body {
-    font-family: sans-serif;
-  }
-
+  body {font-family: sans-serif;}
   h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     letter-spacing: 5px;
@@ -59,15 +55,45 @@
     <div class="w3-row w3-padding-64" id="about">
 
       <div class="w3-center w3-padding-large">
-        <h1 class="w3-center">Sodium</h1><br>
-        <p class="w3-large">Looking to add some flavor to your roster of dishes? Here's 100 tasty recipes compact into a convenient chart with dishes ranging from a lower sodium count to a higher one. Spice up your afternoon barbeques with Teriyaki Turkey Burgers at 773.9 mg of Sodium or celebrate the holidays with a Pumpkin Pie Cheesecake at 371.7 mg of Sodium.</p>
+        <h1 class="w3-center">Deciding On What To Buy Or Need A Easy Recipe?</h1><br>
+        <p class="w3-large">Looking to have a nice hot meal but short on cash? Then look through our ingredient chart and it shows how much one can make with X amount of ingredients. Make a Almond Amaretto Fudge take only uses three ingredients without breaking the bank. But are the steps too much? Why not look for a recipe that uses the least amount of steps for those beginners trying out cooking for the first time.</p>
       </div>
     </div>
   </div>
 
   <hr/>
 
-  <div id="sodium" class="chart--container"></div>
+  <div class="w3-content" style="max-width:1100px">
+      <div class="w3-center w3-padding-large">
+        <div id="numberOfIngredients" class="chart--container"></div>
+      </div>
+  </div>
+
+  <div class="w3-content" style="max-width:1100px">
+
+
+    <div class="w3-center w3-padding-large">
+      <div id="ingredientDistribution" class="chart--container"></div>
+    </div>
+
+  </div>
+
+  <hr/>
+
+  <div class="w3-content" style="max-width:1100px">
+    <div class="w3-center w3-padding-large">
+      <div id="numberOfInstructions" class="chart--container"></div>
+    </div>
+  </div>
+
+  <div class="w3-content" style="max-width:1100px">
+
+
+    <div class="w3-center w3-padding-large">
+      <div id="instructionDistribution" class="chart--container"></div>
+    </div>
+
+  </div>
 
   <!-- End page content -->
 </div>
@@ -78,6 +104,9 @@
 </footer>
 
 </body>
-<script src="Charts/testnutrition.js"></script>
+<script src="Charts/numberOfIngredient.js"></script>
+<script src="Charts/recipeIngredientDistribution.js"></script>
+<script src="Charts/recipeInstructionDistribution.js"></script>
+<script src="Charts/recipeInstructions.js"></script>
 </html>
 
