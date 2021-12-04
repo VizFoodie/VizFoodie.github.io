@@ -43,7 +43,7 @@ let recipeKeywords = {
     ignore: ['<', '/', '(', ')', '.', 'Mins', 'Hours', 'Easy', 'Oven', 'Weeknight'],
     maxItems: 600,
     minLength: '4px',
-    palette: ['#bdc3c7', '#1abc9c', '#3498db', '#9b59b6', '#f1c40f', '#e74c3c', '#2ecc71', '#e67e22'],
+    palette: ['#8dd3c7', '#8d98d3', '#93d38d'],
     style: {
       fontFamily: 'sans-serif',
       hoverState: {
