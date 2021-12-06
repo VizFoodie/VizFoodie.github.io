@@ -44,6 +44,7 @@ function plotFromCSV() {
 
     var layout = {
       barmode: 'stack',
+      dragmode:'pan',
       height: 900,
       margin: {
         b: 300,
@@ -60,7 +61,7 @@ function plotFromCSV() {
       }
     };
 
-    Plotly.newPlot('stacked', data, layout, {scrollZoom: true});
+    Plotly.newPlot('stacked', data, layout, {scrollZoom: true, modeBarButtonsToRemove: ['toImage']});
     // var myPlot = document.getElementById('recipeTime');
     // myPlot.on('plotly_relayout', function(data){console.log(data)});
   });

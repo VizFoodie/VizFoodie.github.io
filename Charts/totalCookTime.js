@@ -20,6 +20,7 @@ var trace1 = {
 var data = [ trace1 ];
 
 var layout = {
+  dragmode: 'pan',
   height: 900,
   margin: {
     b: 310,

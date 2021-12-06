@@ -13,18 +13,16 @@ function plotFromCSV() {
       marker: {
         size: 10,
         line: {
-          color: 'rgba(217, 217, 217, 0.14)',
           width: 0.5},
         opacity: 0.8,
         color: unpack(rows, 'TotalTime'),
-        colorscale: "Blues",
       },
       type: 'scatter3d',
       hovertemplate:
           "<br><b>Name</b>: %{text}</br>" +
-          "<b>Cook Time</b>: %{x}" +
-          "<br><b>Prep Time</b>: %{y}</br>" +
-          "<b>Total Time</b>: %{z}" +
+          "<b>Cook Time</b>: %{x} min" +
+          "<br><b>Prep Time</b>: %{y} min</br>" +
+          "<b>Total Time</b>: %{z} min" +
           "<extra></extra>"
     };
 
@@ -32,9 +30,9 @@ function plotFromCSV() {
 
     var layout = {
       scene: {
-        xaxis:{title: 'Cook Time'},
-        yaxis:{title: 'Prep Time'},
-        zaxis:{title: 'Total Time'},
+        xaxis:{title: 'Cook Time (min)'},
+        yaxis:{title: 'Prep Time (min)'},
+        zaxis:{title: 'Total Time (min)'},
         camera: {
           eye: {
             x: -1.3287580974990036,
@@ -58,7 +56,7 @@ function plotFromCSV() {
       },
     };
 
-    Plotly.newPlot('recipeTime', data, layout);
+    Plotly.newPlot('recipeTime', data, layout, {modeBarButtonsToRemove: ['toImage']});
     // var myPlot = document.getElementById('recipeTime');
     // myPlot.on('plotly_relayout', function(data){console.log(data)});
   });
