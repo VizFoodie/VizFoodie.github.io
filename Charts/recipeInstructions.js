@@ -72,7 +72,7 @@ let numberOfInstructions = {
     'bar-width': "50%"
   },
   plotarea: {
-    margin: '80 60 100 60',
+    margin: '120 60 90 60',
     y: '125px'
   },
   scrollX: {
@@ -124,7 +124,7 @@ let numberOfInstructions = {
       fontFamily: 'sans-serif',
       fontSize: '12px',
       offsetX: '50px',
-      offsetY: '-190px'
+      offsetY: '-160px'
     },
     lineColor: '#7E7E7E',
   },
