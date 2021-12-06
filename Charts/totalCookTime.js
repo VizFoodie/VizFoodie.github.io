@@ -22,7 +22,7 @@ var data = [ trace1 ];
 var layout = {
   height: 900,
   margin: {
-    b: 500,
+    b: 310,
     pad: 0,
   },
 
