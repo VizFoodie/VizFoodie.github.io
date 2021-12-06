@@ -28,19 +28,7 @@ function plotFromCSV() {
       }],
     };
 
-    var trace3 = {
-      x:unpack(rows, 'Name'),
-      y:unpack(rows, 'TotalTime'),
-      type: 'bar',
-      name: 'Total Time',
-      transforms: [{
-        type: 'sort',
-        target: 'y',
-        order: 'ascending'
-      }],
-    };
-
-    var data = [trace1, trace2, trace3];
+    var data = [trace1, trace2];
 
     var layout = {
       barmode: 'stack',
