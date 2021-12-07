@@ -130,7 +130,8 @@ var cdata = {
   type : 'line',
   title : {
     fontSize : 17,
-    text : 'Amount of Saturated Fat per Serving of a Recipe'
+    text : 'Amount of Saturated Fat per Serving of a Recipe',
+    fontFamily: 'sans-serif',
   },
   plotarea : {
     margin : '40 20 45 20'
@@ -140,7 +141,8 @@ var cdata = {
     maxValue : cyear,
     step : 10,
     label: {
-      text: 'Saturated Fat (g)'
+      text: 'Saturated Fat (g)',
+      fontFamily: 'sans-serif',
     },
     item : {
       fontSize : 10
@@ -154,7 +156,8 @@ var cdata = {
         labelPlacement : 'opposite',
         label : {
           fontSize : 11,
-          text : cyear
+          text : cyear,
+          fontFamily: 'sans-serif',
         }
       }
     ]
@@ -170,6 +173,7 @@ var cdata = {
     align : 'left',
     padding : 10,
     fontSize : 13,
+    fontFamily: 'sans-serif',
     text : '<span style="font-size:21px;font-weight:bold;">%plot-text</span><br>%data-invented g of Saturated Fat'
   },
   plot : {
@@ -190,6 +194,7 @@ var cdata = {
       placement : 'right',
       fontSize : 10,
       fontWeight : 'normal',
+      fontFamily: 'sans-serif',
       text : '%plot-text (%data-years g)'
     }
   },
