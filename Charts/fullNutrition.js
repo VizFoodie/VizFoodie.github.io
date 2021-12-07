@@ -129,7 +129,7 @@ var cdata = {
   type : 'line',
   title : {
     fontSize : 17,
-    text : 'Calories'
+    text : 'Amount of Calories per Serving of a Recipe'
   },
   plotarea : {
     margin : '40 20 45 20'
@@ -166,7 +166,7 @@ var cdata = {
     align : 'left',
     padding : 10,
     fontSize : 13,
-    text : '<span style="font-size:21px;font-weight:bold;">%plot-text</span><br>%data-invented calories'
+    text : '<span style="font-size:21px;font-weight:bold;">%plot-text</span><br>%data-invented Calories'
   },
   plot : {
     lineWidth : 8,

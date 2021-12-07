@@ -130,7 +130,7 @@ var cdata = {
   type : 'line',
   title : {
     fontSize : 17,
-    text : 'Sugar'
+    text : 'Amount of Sugar per Serving of a Recipe'
   },
   plotarea : {
     margin : '40 20 45 20'
@@ -167,7 +167,7 @@ var cdata = {
     align : 'left',
     padding : 10,
     fontSize : 13,
-    text : '<span style="font-size:21px;font-weight:bold;">%plot-text</span><br>%data-invented sugar'
+    text : '<span style="font-size:21px;font-weight:bold;">%plot-text</span><br>%data-invented g of Sugar'
   },
   plot : {
     lineWidth : 8,
@@ -187,7 +187,7 @@ var cdata = {
       placement : 'right',
       fontSize : 10,
       fontWeight : 'normal',
-      text : '%plot-text (%data-years Sugar)'
+      text : '%plot-text (%data-years g)'
     }
   },
   series : [

@@ -130,7 +130,7 @@ var cdata = {
   type : 'line',
   title : {
     fontSize : 17,
-    text : 'Carbohydrate'
+    text : 'Amount of Carbohydrate per Serving of a Recipe'
   },
   plotarea : {
     margin : '40 20 45 20'
@@ -167,7 +167,7 @@ var cdata = {
     align : 'left',
     padding : 10,
     fontSize : 13,
-    text : '<span style="font-size:21px;font-weight:bold;">%plot-text</span><br>%data-invented Carbohydrate'
+    text : '<span style="font-size:21px;font-weight:bold;">%plot-text</span><br>%data-invented g of Carbohydrate'
   },
   plot : {
     lineWidth : 8,
@@ -187,7 +187,7 @@ var cdata = {
       placement : 'right',
       fontSize : 10,
       fontWeight : 'normal',
-      text : '%plot-text (%data-years Carbohydrate)'
+      text : '%plot-text (%data-years g)'
     }
   },
   series : [
