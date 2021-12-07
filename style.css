@@ -18,3 +18,28 @@
 #timeTable{
   border-bottom: 1px solid black;
 }
+
+#filterbox {
+  position: relative;
+  top: -5px;
+  left: calc(42%);
+  z-index: 999;
+}
+
+#filter {
+  padding: 3px 5px;
+  width: 180px;
+  height: auto;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.zcdemo {
+  position: relative;
+}
+
+.zc-body2 {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
