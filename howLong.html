@@ -86,16 +86,40 @@
 
   <hr/>
 
-  <div class="w3-content" style="max-width:1100px;margin-bottom: 200px">
+  <div class="w3-content" style="max-width:1100px;">
     <div class="w3-center w3-padding-large" >
       <h1>Are there any correlations?</h1><br>
       <p>Let's do some math</p>
-      <div id="timeTable" class="column"></div>
-      <div class="w3-row">
-        <div class="w3-col m6">
+      <div class="w3-row" style="margin-top: 100px">
+        <div class="w3-col m6" style="margin-top: 150px">
           <h4>Cook time vs prep time correlation</h4>
-          <p>On the right is the correlation between cook time and preptime</p></div>
+          <p style="margin-top: 40px">On the right is a chart of cook time vs prep time with cook time on the x axis. By inserting our dataset into a correlation coefficient calculator, the result is a R value of 0.0644. This indicates there is virtually no correlation between the amount of cook time and prep time of a recipe. In other words, the amount it takes to prep your food does not affect the cook time and vice versa.</p>
+        </div>
         <div class="w3-col m4" id="cookVSprep" ></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content" style="max-width:1100px;">
+    <div class="w3-center w3-padding-large" >
+      <div class="w3-row" style="margin-top: 100px">
+        <div class="w3-col m6" style="margin-top: 150px">
+          <h4>Total time vs prep time correlation</h4>
+          <p style="margin-top: 40px">Now we do the same process for total time and prep time. The results yield a R value of 0.1998. This is a stronger correlation than cook time vs prep time but still considered a very weak correlation, thus it is negligible.</p>
+        </div>
+        <div class="w3-col m4" id="prepVStotal" ></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content" style="max-width:1100px;margin-bottom: 100px">
+    <div class="w3-center w3-padding-large" >
+      <div class="w3-row" style="margin-top: 100px">
+        <div class="w3-col m6" style="margin-top: 150px">
+          <h4>Total time vs prep time correlation</h4>
+          <p style="margin-top: 40px">Last but not least let's check if there is any correlation between cooking time and total time.</p>
+        </div>
+        <div class="w3-col m4" id="cookVStotal" ></div>
       </div>
     </div>
   </div>
@@ -112,4 +136,6 @@
 <script src="Charts/stacked.js"></script>
 <script src="Charts/timeTable.js"></script>
 <script src="Charts/cookVSprep.js"></script>
+<script src="Charts/prepVStotal.js"></script>
+<script src="Charts/cookVStotal.js"></script>
 </html>

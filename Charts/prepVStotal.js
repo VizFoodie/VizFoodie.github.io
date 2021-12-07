@@ -5,7 +5,7 @@ function plotFromCSV() {
       { return row[key]; });}
 
     var recipeTime = {
-      x: unpack(rows, 'CookTime'),
+      x: unpack(rows, 'TotalTime'),
       y: unpack(rows, 'PrepTime'),
       text: unpack(rows, 'Name'),
       mode: 'markers',
@@ -26,14 +26,14 @@ function plotFromCSV() {
       hovermode: 'closets',
       width: 600,
       xaxis: {
-        title: 'Cook Time'
+        title: 'Total Time'
       },
       yaxis: {
         title: 'Prep Time'
       }
     };
 
-    Plotly.newPlot('cookVSprep', data, layout, {modeBarButtonsToRemove: ['toImage']});
+    Plotly.newPlot('prepVStotal', data, layout, {modeBarButtonsToRemove: ['toImage']});
     // var myPlot = document.getElementById('recipeTime');
     // myPlot.on('plotly_relayout', function(data){console.log(data)});
   });
