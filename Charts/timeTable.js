@@ -1,4 +1,4 @@
-Plotly.d3.csv("CSV/recipesCookTime.csv", function (err, rows) {
+Plotly.d3.csv("CSV/timeIngredients.csv", function (err, rows) {
   function unpack(rows, key) {
     return rows.map(function (row) { return row[key]; });
   }
@@ -8,10 +8,11 @@ Plotly.d3.csv("CSV/recipesCookTime.csv", function (err, rows) {
   values.push(unpack(rows, 'PrepTime'))
   values.push(unpack(rows, 'CookTime'))
   values.push(unpack(rows, 'TotalTime'))
+  values.push(unpack(rows, 'RecipeIngredientParts'))
   var data = [{
     type: 'table',
     header: {
-      values: [["<b>Name</b>"],["<b>Prep Time (min)</b>"],["<b>Cook Time (min)</b>"],["<b>Total Time (min)</b>"]],
+      values: [["<b>Name</b>"],["<b>Prep Time (min)</b>"],["<b>Cook Time (min)</b>"],["<b>Total Time (min)</b>"],["<b>Number of Ingredients</b>"]],
       align: "center",
       height: 40,
       line: {width: 1, color: 'black'},
