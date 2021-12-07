@@ -1,40 +1,47 @@
 
-Plotly.d3.csv("CSV/recipesCookTime.csv", function (err, rows) {
+Plotly.d3.csv("CSV/timeIngredients.csv", function (err, rows) {
   function unpack(rows, key) {
     return rows.map(function (row) { return row[key]; });
   }
-
+  var desired_maximum_marker_size = 3;
 var trace1 = {
-  x: unpack(rows, 'Name'),
-  y: unpack(rows, 'TotalTime'),
+  x: unpack(rows,  'CookTime'),
+  y: unpack(rows, 'PrepTime'),
+  text: unpack(rows, 'Name'),
   mode: 'markers',
   type: 'scatter',
-  marker: { size: 12 },
-  transforms: [{
-    type: 'sort',
-    target: 'y',
-    order: 'ascending'
-  }],
+  marker: {
+    size: unpack(rows, 'RecipeIngredientParts'),
+    opacity: 0.5,
+    sizeref: 2.0 / (desired_maximum_marker_size*2),
+  },
+  hovertemplate:
+      "<br><b>Name</b>: %{text}</br>" +
+      "<b>Cook Time</b>: %{x} min" +
+      "<br><b>Prep Time</b>: %{y} min</br>" +
+      "<b># of ingredients</b>: %{marker.size} " +
+      "<extra></extra>",
 };
   
 var data = [ trace1 ];
 
 var layout = {
-  dragmode: 'pan',
+  font: {
+    family: 'sans-serif',
+  },
   height: 900,
   margin: {
     b: 310,
     pad: 0,
   },
-
+  hovermode: "closest",
   yaxis: {
-    range: [-37, 367],
-    title: 'Time (Min)',
+    range: [-1, 80],
+    title: 'Prep Time (min)',
   },
   xaxis: {
-    range: [-0.54,27.6],
-
-    tickangle: 45
+    range: [-5,100],
+    title: 'Cook Time (min)',
   }
 };
   

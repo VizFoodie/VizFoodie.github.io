@@ -54,21 +54,21 @@
     </div>
   </div>
 
-  <hr />
+<!--  <hr />-->
 
-  <div class="w3-content" style="max-width:1100px;height: 800px;">
-    <div class="w3-center w3-padding-large" >
-      <h1 class="w3-center">Ingredients vs Cook Time and Prep Time</h1><br>
-      <p>This 3d chart represents each recipes cook time, prep time, and the number of ingredients.</p>
-      <div id="3dScatter" class="chart--container"></div>
-    </div>
-  </div>
+<!--  <div class="w3-content" style="max-width:1100px;height: 800px;">-->
+<!--    <div class="w3-center w3-padding-large" >-->
+<!--      <h1 class="w3-center">Ingredients vs Cook Time and Prep Time</h1><br>-->
+<!--      <p>This 3d chart represents each recipes cook time, prep time, and the number of ingredients.</p>-->
+<!--      <div id="3dScatter" class="chart&#45;&#45;container"></div>-->
+<!--    </div>-->
+<!--  </div>-->
 
   <hr />
 
   <div class="w3-content" style="max-width:1100px;height: 1050px;">
     <div class="w3-center w3-padding-large" >
-      <h1 class="w3-center">Total cook time of recipes</h1><br>
+      <h1 class="w3-center"> </h1><br>
       <p>Each node in the chart below represents the total time (cook + prep time) of a given recipe</p>
       <div id="scatterTime" class="chart--container"></div>
     </div>
@@ -86,12 +86,17 @@
 
   <hr/>
 
-  <div class="w3-content" style="max-width:1100px;height: 1050px;">
+  <div class="w3-content" style="max-width:1100px;margin-bottom: 200px">
     <div class="w3-center w3-padding-large" >
-      <h1 class="w3-center">Conclusion</h1><br>
-      <p>Are there any correlations?</p>
-      <div id="timeTable" class="chart--container"></div>
-
+      <h1>Are there any correlations?</h1><br>
+      <p>Let's do some math</p>
+      <div id="timeTable" class="column"></div>
+      <div class="w3-row">
+        <div class="w3-col m6">
+          <h4>Cook time vs prep time correlation</h4>
+          <p>On the right is the correlation between cook time and preptime</p></div>
+        <div class="w3-col m4" id="cookVSprep" ></div>
+      </div>
     </div>
   </div>
 
@@ -106,4 +111,5 @@
 <script src="Charts/totalCookTime.js"></script>
 <script src="Charts/stacked.js"></script>
 <script src="Charts/timeTable.js"></script>
+<script src="Charts/cookVSprep.js"></script>
 </html>

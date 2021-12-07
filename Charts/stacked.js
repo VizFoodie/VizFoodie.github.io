@@ -39,11 +39,11 @@ function plotFromCSV() {
         pad: 0,
       },
       yaxis: {
-        range: [-37, 400],
+        range: [-37,500],
         title: 'Time (Min)',
       },
       xaxis: {
-        range: [-0.54,27.6],
+        range: [-0.54,97],
 
         tickangle: 45
       }

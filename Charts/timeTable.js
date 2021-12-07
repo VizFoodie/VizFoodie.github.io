@@ -22,16 +22,16 @@ Plotly.d3.csv("CSV/timeIngredients.csv", function (err, rows) {
     cells: {
       values: values,
       align: "center",
-      height: 56.2,
+      height: 60,
       line: {color: "black", width: 1},
       font: {family: "Arial", size: 14, color: ["black"]}
     }
   }]
 
   var layout = {
-    height: 900,
+    height: 600,
     margin: {
-      b: 310,
+      b: 100,
       pad: 0,
     },
   };
