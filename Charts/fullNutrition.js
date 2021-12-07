@@ -138,6 +138,9 @@ var cdata = {
     minValue : minyear,
     maxValue : cyear,
     step : 10,
+    label: {
+      text: 'Calories'
+    },
     item : {
       fontSize : 10
     },

@@ -139,6 +139,9 @@ var cdata = {
     minValue : minyear,
     maxValue : cyear,
     step : 10,
+    label: {
+      text: 'Protein (g)'
+    },
     item : {
       fontSize : 10
     },
@@ -204,7 +207,7 @@ tech.map(function(el, idx) {
       [el[1], idx],
       [0, idx]
     ],
-    lineColor : '#dade69'
+    lineColor : '#dec969'
   };
   cdata.series.push(plot);
 });

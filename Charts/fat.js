@@ -139,6 +139,9 @@ var cdata = {
     minValue : minyear,
     maxValue : cyear,
     step : 10,
+    label: {
+      text: 'Fat (g)'
+    },
     item : {
       fontSize : 10
     },
@@ -204,7 +207,7 @@ tech.map(function(el, idx) {
       [el[1], idx],
       [0, idx]
     ],
-    lineColor : '#8dd3c7'
+    lineColor : '#d3ac8d'
   };
   cdata.series.push(plot);
 });

@@ -139,6 +139,9 @@ var cdata = {
     minValue : minyear,
     maxValue : cyear,
     step : 10,
+    label: {
+      text: 'Fiber (g)'
+    },
     item : {
       fontSize : 10
     },
