@@ -53,7 +53,7 @@
 <!--page content-->
 <div class="w3-content" style="max-width:1500px">
 
-  <div class="w3-content" style="max-width:1100px">
+  <div class="w3-content" style="max-width:1100px;">
     <div class="w3-row w3-padding-64" id="about">
       <div class="w3-center w3-padding-large">
         <h1 class="w3-center">How Long Does My Recipe Take?</h1><br>
@@ -63,10 +63,21 @@
   </div>
 
   <hr />
-  
+
+  <div class="w3-content" style="max-width:1100px;height: 800px;">
+    <div class="w3-center w3-padding-large" >
+      <h1 class="w3-center">Ingredients vs Cook Time and Prep Time</h1><br>
+      <p>This 3d chart represents each recipes cook time, prep time, and the number of ingredients.</p>
+      <div id="3dScatter" class="chart--container"></div>
+    </div>
+  </div>
+
+  <hr />
+
   <div class="w3-content" style="max-width:1100px;height: 1050px;">
     <div class="w3-center w3-padding-large" >
       <h1 class="w3-center">Total cook time of recipes</h1><br>
+      <p>Each node in the chart below represents the total time (cook + prep time) of a given recipe</p>
       <div id="scatterTime" class="chart--container"></div>
     </div>
   </div>
@@ -76,7 +87,7 @@
   <div class="w3-content" style="max-width:1100px;height: 1050px;">
     <div class="w3-center w3-padding-large" >
       <h1 class="w3-center">See how your time "stacks" up</h1><br>
-      <p>Scroll to zoom in and out of the chart, there are more recipes to the right.</p>
+      <p>You can use this chart to compare your recipes cook time vs prep time.</p>
       <div id="stacked" class="chart--container"></div>
     </div>
   </div>

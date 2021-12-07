@@ -1,5 +1,5 @@
 function plotFromCSV() {
-  Plotly.d3.csv("CSV/recipesCookTime.csv", function(err, rows) {
+  Plotly.d3.csv("CSV/timeIngredients.csv", function(err, rows) {
     function unpack(rows, key) {
       return rows.map(function(row)
       { return row[key]; });}
@@ -7,7 +7,7 @@ function plotFromCSV() {
     var recipeTime = {
       x: unpack(rows, 'CookTime'),
       y: unpack(rows, 'PrepTime'),
-      z: unpack(rows, 'TotalTime'),
+      z: unpack(rows, 'RecipeIngredientParts'),
       text: unpack(rows, 'Name'),
       mode: 'markers',
       marker: {
@@ -15,14 +15,13 @@ function plotFromCSV() {
         line: {
           width: 0.5},
         opacity: 0.8,
-        color: unpack(rows, 'TotalTime'),
       },
       type: 'scatter3d',
       hovertemplate:
           "<br><b>Name</b>: %{text}</br>" +
           "<b>Cook Time</b>: %{x} min" +
           "<br><b>Prep Time</b>: %{y} min</br>" +
-          "<b>Total Time</b>: %{z} min" +
+          "<b># of ingredients</b>: %{z} " +
           "<extra></extra>"
     };
 
@@ -32,7 +31,7 @@ function plotFromCSV() {
       scene: {
         xaxis:{title: 'Cook Time (min)'},
         yaxis:{title: 'Prep Time (min)'},
-        zaxis:{title: 'Total Time (min)'},
+        zaxis:{title: 'Number of Ingredients'},
         camera: {
           eye: {
             x: -1.3287580974990036,
@@ -48,6 +47,7 @@ function plotFromCSV() {
           up: {x: 0, y: 0, z: 1},
         },
       },
+      height: 600,
       margin: {
         l: 0,
         r: 0,
@@ -56,12 +56,10 @@ function plotFromCSV() {
       },
     };
 
-    Plotly.newPlot('recipeTime', data, layout, {modeBarButtonsToRemove: ['toImage']});
+    Plotly.newPlot('3dScatter', data, layout, {modeBarButtonsToRemove: ['toImage']});
     // var myPlot = document.getElementById('recipeTime');
     // myPlot.on('plotly_relayout', function(data){console.log(data)});
   });
 }
-
-
 
 plotFromCSV();
