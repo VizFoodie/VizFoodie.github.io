@@ -62,6 +62,29 @@
 
   <div id="numberOfInstructions" class="chart--container"></div>
   <div id="instructionDistribution" class="chart--container"></div>
+
+  <hr/>
+
+  <div class="w3-content" style="max-width:1100px;">
+    <div class="w3-center w3-padding-large" >
+      <h1>Interesting Correlations</h1><br>
+      <div class="w3-row">
+        <div class="w3-col m6" id="prepVSstep" ></div>
+        <div class="w3-col m5" id="ingreVSstep" ></div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-content" style="max-width:1100px;margin-bottom: 100px">
+    <div class="w3-center w3-padding-large" >
+      <div class="w3-row">
+        <div class="w3-col m5" style="margin-left: 100px;">
+          <p style="margin-top: 40px">The chart on the left is the correlation between the number of steps to prepare vs the prep time and the R value is 0.4145. This is actually a weak correlation which is very interesting given that one would assume more steps equals longer prep time.</p>
+        </div>
+        <div class="w3-col m5" style="margin-left: 50px;">
+          <p style="margin-top: 40px">The chart on the right is the correlation between the number of steps to prepare vs the number of ingredients in a recipe and the R value is 0.4266. Again, this is a weak correlation and it suggests that the number of ingredients do not affect the number of steps to make a recipe.</p>
+        </div>
+    </div>
+  </div>
   <!-- End page content -->
 </div>
 
@@ -75,5 +98,8 @@
 <script src="Charts/recipeIngredientDistribution.js"></script>
 <script src="Charts/recipeInstructionDistribution.js"></script>
 <script src="Charts/recipeInstructions.js"></script>
+<script src="Charts/stepVSprep.js"></script>
+<script src="Charts/stepVSingre.js"></script>
+<script src="Charts/prepVSingre.js"></script>
 </html>
 
