@@ -91,6 +91,7 @@
       <h1>Are there any correlations?</h1><br>
       <p>Let's do some math</p>
       <img src="images/Correlation-Coefficient-Formula.jpg">
+      <img src="images/strength.gif">
       <div class="w3-row">
         <div class="w3-col m6" style="margin-top: 150px">
           <h4>Cook time vs prep time correlation</h4>
@@ -125,14 +126,40 @@
     </div>
   </div>
 
+  <div class="w3-content" style="max-width:1100px;margin-bottom: 100px">
+    <div class="w3-center w3-padding-large" >
+      <div class="w3-row">
+        <div class="w3-col m6" style="margin-top: 150px">
+          <h4>Total time vs number of ingredient correlation</h4>
+          <p style="margin-top: 40px">Once again it might come as a surprise, but the R value for total time vs number of ingredients is merely 0.0818. This is another positive yet very weak correlation value.</p>
+        </div>
+        <div class="w3-col m4" id="totalVSingredient" ></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content" style="max-width:1100px;margin-bottom: 100px">
+    <div class="w3-center w3-padding-large" >
+      <div class="w3-row">
+        <div class="w3-col m6" style="margin-top: 150px">
+          <h4>Prep time vs number of ingredient correlation</h4>
+          <p style="margin-top: 40px">One would assume that the more ingredients you have will result in a longer preperation time, however, the data says otherwise. With an R value of 0.2795, prep time vs number of ingredients have a weak association.</p>
+        </div>
+        <div class="w3-col m4" id="prepVSingre" ></div>
+      </div>
+    </div>
+  </div>
+
   <hr/>
+
   <div class="w3-content" style="max-width:1100px; margin-bottom: 50px">
     <div class="w3-center w3-padding-large" >
       <h1>Conclusion</h1><br>
       <p>One would assume that the amount of time prepping your food will affect the total time it takes to cook your dish from start to finish. However, our data suggests that the total time relies much more on the time you actually take cooking the food. So if you are in a hurry to prepare a meal, even if you see the prepare time is long, that does not necessarily mean it will take longer to cook the meal. Therefore, if time is of the essence, perhaps it is more wise to choose a recipe with a short cooking time.</p>
-
     </div>
   </div>
+
+
 </div>
 
 <!-- Footer -->
@@ -147,4 +174,6 @@
 <script src="Charts/cookVSprep.js"></script>
 <script src="Charts/prepVStotal.js"></script>
 <script src="Charts/cookVStotal.js"></script>
+<script src="Charts/totalVSingredient.js"></script>
+<script src="Charts/prepVSingre.js"></script>
 </html>
