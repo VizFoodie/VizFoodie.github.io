@@ -1,4 +1,4 @@
-Plotly.d3.csv("CSV/RecipesSample_Minutes.csv", function (err, rows) {
+Plotly.d3.csv("CSV/recipeSampleMinutes.csv", function (err, rows) {
   function unpack(rows, key) {
     return rows.map(function (row) { return row[key]; });
   }
