@@ -1,4 +1,4 @@
-Plotly.d3.csv("CSV/recipesSample_Minutes.csv", function (err, rows) {
+Plotly.d3.csv("CSV/RecipesSample_Minutes.csv", function (err, rows) {
   function unpack(rows, key) {
     return rows.map(function (row) { return row[key]; });
   }
@@ -17,14 +17,14 @@ Plotly.d3.csv("CSV/recipesSample_Minutes.csv", function (err, rows) {
       height: 40,
       line: {width: 1, color: 'black'},
       fill: {color: "#F5F5F5"},
-      font: {family: "Arial", size: 14, color: "black"}
+      font: {family: "sans-serif", size: 14, color: "black"}
     },
     cells: {
       values: values,
       align: "center",
       height: 60,
       line: {color: "black", width: 1},
-      font: {family: "Arial", size: 14, color: ["black"]}
+      font: {family: "sans-serif", size: 14, color: ["black"]}
     }
   }]
 
